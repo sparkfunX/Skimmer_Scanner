@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="skimmerscammer.skimmerscammer" android:installLocation="auto" android:versionCode="2" android:versionName="1.1">
+  <!--suppress UsesMinSdkAttributes-->
+  <uses-sdk android:minSdkVersion="21" />
+  <uses-permission android:name="android.permission.BLUETOOTH" />
+  <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+  <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+  <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+  <application android:allowBackup="true" android:label="Skimmer Scanner" android:icon="@drawable/sfechip" android:name="android.app.Application">
+    <activity android:label="About" android:name="md5a36792c658e76de85fc768d937528912.About" />
+    <activity android:label="Alert" android:name="md5a36792c658e76de85fc768d937528912.Alert" />
+    <activity android:label="Skimmer Scanner" android:name="md5a36792c658e76de85fc768d937528912.MainActivity">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+    <activity android:label="MildAlert" android:name="md5a36792c658e76de85fc768d937528912.MildAlert" />
+    <activity android:label="OKAlert" android:name="md5a36792c658e76de85fc768d937528912.OKAlert" />
+    <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="skimmerscammer.skimmerscammer.mono.MonoRuntimeProvider.__mono_init__" />
+  </application>
+</manifest>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:src="@drawable/warningred"
+        android:layout_width="match_parent"
+        android:layout_height="152.7dp"
+        android:id="@+id/imageView1"
+        android:layout_marginTop="111.8dp" />
+    <TextView
+        android:text="Probable Skimmer Found"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:layout_marginTop="17.3dp"
+        android:gravity="center" />
+    <TextView
+        android:text="This scan found a device that not only uses a common radio module for skimmers, but replied to queries in a way that suggests that it's running skimmer firmware. Skip this gas pump."
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1"
+        android:layout_marginTop="13.3dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center" />
+    <TextView
+        android:text="Use back button to return to scan"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:layout_marginTop="20.0dp"
+        android:gravity="center" />
+</LinearLayout>

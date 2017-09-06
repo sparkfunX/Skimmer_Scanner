@@ -1,0 +1,1417 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools" xmlns:p1="http://schemas.android.com/apk/res/android" attributeFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="schemas.android.com.apk.res.android.xsd" namespace="http://schemas.android.com/apk/res/android" />
+  <xs:import schemaLocation="schemas.android.com.apk.res.auto.xsd" namespace="http://schemas.android.com/apk/res-auto" />
+  <xs:import schemaLocation="schemas.android.com.tools.xsd" namespace="http://schemas.android.com/tools" />
+  <xs:annotation>
+    <xs:documentation>v25</xs:documentation>
+    <xs:documentation>9/6/2017 10:14:19 AM</xs:documentation>
+  </xs:annotation>
+  <xs:group name="any-view">
+    <xs:choice>
+      <xs:element ref="CheckedTextView" />
+      <xs:element ref="TextView" />
+      <xs:element ref="View" />
+      <xs:element ref="MultiAutoCompleteTextView" />
+      <xs:element ref="AutoCompleteTextView" />
+      <xs:element ref="EditText" />
+      <xs:element ref="TextureView" />
+      <xs:element ref="ZoomButton" />
+      <xs:element ref="ImageButton" />
+      <xs:element ref="ImageView" />
+      <xs:element ref="android.webkit.WebView" />
+      <xs:element ref="AbsoluteLayout" />
+      <xs:element ref="ViewGroup" />
+      <xs:element ref="Switch" />
+      <xs:element ref="CompoundButton" />
+      <xs:element ref="Button" />
+      <xs:element ref="ZoomControls" />
+      <xs:element ref="LinearLayout" />
+      <xs:element ref="Chronometer" />
+      <xs:element ref="NumberPicker" />
+      <xs:element ref="VideoView" />
+      <xs:element ref="SurfaceView" />
+      <xs:element ref="QuickContactBadge" />
+      <xs:element ref="ToggleButton" />
+      <xs:element ref="RatingBar" />
+      <xs:element ref="AbsSeekBar" />
+      <xs:element ref="ProgressBar" />
+      <xs:element ref="Space" />
+      <xs:element ref="ViewStub" />
+      <xs:element ref="TimePicker" />
+      <xs:element ref="FrameLayout" />
+      <xs:element ref="DigitalClock" />
+      <xs:element ref="Spinner" />
+      <xs:element ref="AbsSpinner" />
+      <xs:element ref="AdapterView" />
+      <xs:element ref="AnalogClock" />
+      <xs:element ref="TwoLineListItem" />
+      <xs:element ref="RelativeLayout" />
+      <xs:element ref="DatePicker" />
+      <xs:element ref="RadioButton" />
+      <xs:element ref="CheckBox" />
+      <xs:element ref="CalendarView" />
+      <xs:element ref="Gallery" />
+      <xs:element ref="android.gesture.GestureOverlayView" />
+      <xs:element ref="SeekBar" />
+      <xs:element ref="TextClock" />
+      <xs:element ref="MediaController" />
+      <xs:element ref="Toolbar" />
+      <xs:element ref="TableRow" />
+      <xs:element ref="SearchView" />
+      <xs:element ref="GridView" />
+      <xs:element ref="AbsListView" />
+      <xs:element ref="SlidingDrawer" />
+      <xs:element ref="TabWidget" />
+      <xs:element ref="ImageSwitcher" />
+      <xs:element ref="ViewSwitcher" />
+      <xs:element ref="ViewAnimator" />
+      <xs:element ref="GridLayout" />
+      <xs:element ref="ViewFlipper" />
+      <xs:element ref="HorizontalScrollView" />
+      <xs:element ref="TableLayout" />
+      <xs:element ref="TabHost" />
+      <xs:element ref="ExpandableListView" />
+      <xs:element ref="ListView" />
+      <xs:element ref="StackView" />
+      <xs:element ref="AdapterViewAnimator" />
+      <xs:element ref="AdapterViewFlipper" />
+      <xs:element ref="DialerFilter" />
+      <xs:element ref="ScrollView" />
+      <xs:element ref="ActionMenuView" />
+      <xs:element ref="RadioGroup" />
+      <xs:element ref="TextSwitcher" />
+      <xs:element ref="fragment" />
+      <xs:element ref="include" />
+    </xs:choice>
+  </xs:group>
+  <xs:element name="CheckedTextView" type="CheckedTextView">
+    <xs:annotation>
+      <xs:documentation>Runtime Type: android.widget.CheckedTextView</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="CheckedTextView">
+    <xs:complexContent mixed="false">
+      <xs:extension base="TextView">
+        <xs:attribute ref="p1:checked" />
+        <xs:attribute ref="p1:checkMark" />
+        <xs:attribute ref="p1:checkMarkTint" />
+        <xs:attribute ref="p1:checkMarkTintMode" />
+        <xs:attribute ref="p1:checkMarkGravity" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="TextView" type="TextView">
+    <xs:annotation>
+      <xs:documentation>Runtime Type: android.widget.TextView</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="TextView">
+    <xs:complexContent mixed="false">
+      <xs:extension base="View">
+        <xs:attribute ref="p1:bufferType" />
+        <xs:attribute ref="p1:text" />
+        <xs:attribute ref="p1:hint" />
+        <xs:attribute ref="p1:textColor" />
+        <xs:attribute ref="p1:textColorHighlight" />
+        <xs:attribute ref="p1:textColorHint" />
+        <xs:attribute ref="p1:textAppearance" />
+        <xs:attribute ref="p1:textSize" />
+        <xs:attribute ref="p1:textScaleX" />
+        <xs:attribute ref="p1:typeface" />
+        <xs:attribute ref="p1:textStyle" />
+        <xs:attribute ref="p1:fontFamily" />
+        <xs:attribute ref="p1:textColorLink" />
+        <xs:attribute ref="p1:cursorVisible" />
+        <xs:attribute ref="p1:maxLines" />
+        <xs:attribute ref="p1:maxHeight" />
+        <xs:attribute ref="p1:lines" />
+        <xs:attribute ref="p1:height" />
+        <xs:attribute ref="p1:minLines" />
+        <xs:attribute ref="p1:maxEms" />
+        <xs:attribute ref="p1:maxWidth" />
+        <xs:attribute ref="p1:ems" />
+        <xs:attribute ref="p1:width" />
+        <xs:attribute ref="p1:minEms" />
+        <xs:attribute ref="p1:gravity" />
+        <xs:attribute ref="p1:scrollHorizontally" />
+        <xs:attribute ref="p1:password" />
+        <xs:attribute ref="p1:singleLine" />
+        <xs:attribute ref="p1:enabled" />
+        <xs:attribute ref="p1:selectAllOnFocus" />
+        <xs:attribute ref="p1:includeFontPadding" />
+        <xs:attribute ref="p1:maxLength" />
+        <xs:attribute ref="p1:shadowColor" />
+        <xs:attribute ref="p1:shadowDx" />
+        <xs:attribute ref="p1:shadowDy" />
+        <xs:attribute ref="p1:shadowRadius" />
+        <xs:attribute ref="p1:autoLink" />
+        <xs:attribute ref="p1:linksClickable" />
+        <xs:attribute ref="p1:numeric" />
+        <xs:attribute ref="p1:digits" />
+        <xs:attribute ref="p1:phoneNumber" />
+        <xs:attribute ref="p1:inputMethod" />
+        <xs:attribute ref="p1:capitalize" />
+        <xs:attribute ref="p1:autoText" />
+        <xs:attribute ref="p1:editable" />
+        <xs:attribute ref="p1:freezesText" />
+        <xs:attribute ref="p1:ellipsize" />
+        <xs:attribute ref="p1:drawableTop" />
+        <xs:attribute ref="p1:drawableBottom" />
+        <xs:attribute ref="p1:drawableLeft" />
+        <xs:attribute ref="p1:drawableRight" />
+        <xs:attribute ref="p1:drawableStart" />
+        <xs:attribute ref="p1:drawableEnd" />
+        <xs:attribute ref="p1:drawablePadding" />
+        <xs:attribute ref="p1:drawableTint" />
+        <xs:attribute ref="p1:drawableTintMode" />
+        <xs:attribute ref="p1:lineSpacingExtra" />
+        <xs:attribute ref="p1:lineSpacingMultiplier" />
+        <xs:attribute ref="p1:marqueeRepeatLimit" />
+        <xs:attribute ref="p1:inputType" />
+        <xs:attribute ref="p1:allowUndo" />
+        <xs:attribute ref="p1:imeOptions" />
+        <xs:attribute ref="p1:privateImeOptions" />
+        <xs:attribute ref="p1:imeActionLabel" />
+        <xs:attribute ref="p1:imeActionId" />
+        <xs:attribute ref="p1:editorExtras" />
+        <xs:attribute ref="p1:textSelectHandleLeft" />
+        <xs:attribute ref="p1:textSelectHandleRight" />
+        <xs:attribute ref="p1:textSelectHandle" />
+        <xs:attribute ref="p1:textEditPasteWindowLayout" />
+        <xs:attribute ref="p1:textEditNoPasteWindowLayout" />
+        <xs:attribute ref="p1:textEditSidePasteWindowLayout" />
+        <xs:attribute ref="p1:textEditSideNoPasteWindowLayout" />
+        <xs:attribute ref="p1:textEditSuggestionItemLayout" />
+        <xs:attribute ref="p1:textEditSuggestionContainerLayout" />
+        <xs:attribute ref="p1:textEditSuggestionHighlightStyle" />
+        <xs:attribute ref="p1:textCursorDrawable" />
+        <xs:attribute ref="p1:textIsSelectable" />
+        <xs:attribute ref="p1:textAllCaps" />
+        <xs:attribute ref="p1:elegantTextHeight" />
+        <xs:attribute ref="p1:letterSpacing" />
+        <xs:attribute ref="p1:fontFeatureSettings" />
+        <xs:attribute ref="p1:breakStrategy" />
+        <xs:attribute ref="p1:hyphenationFrequency" />
+        <xs:attribute ref="tools:text" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="View" type="View">
+    <xs:annotation>
+      <xs:documentation>Attributes that can be used with android.view.View or any of its subclasses. Also see .ViewGroup_Layout for attributes that are processed by the view's parent.</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="View">
+    <xs:attribute ref="p1:id" />
+    <xs:attribute ref="p1:tag" />
+    <xs:attribute ref="p1:scrollX" />
+    <xs:attribute ref="p1:scrollY" />
+    <xs:attribute ref="p1:background" />
+    <xs:attribute ref="p1:padding" />
+    <xs:attribute ref="p1:paddingLeft" />
+    <xs:attribute ref="p1:paddingTop" />
+    <xs:attribute ref="p1:paddingRight" />
+    <xs:attribute ref="p1:paddingBottom" />
+    <xs:attribute ref="p1:paddingStart" />
+    <xs:attribute ref="p1:paddingEnd" />
+    <xs:attribute ref="p1:focusable" />
+    <xs:attribute ref="p1:focusableInTouchMode" />
+    <xs:attribute ref="p1:visibility" />
+    <xs:attribute ref="p1:fitsSystemWindows" />
+    <xs:attribute ref="p1:scrollbars" />
+    <xs:attribute ref="p1:scrollbarStyle" />
+    <xs:attribute ref="p1:isScrollContainer" />
+    <xs:attribute ref="p1:fadeScrollbars" />
+    <xs:attribute ref="p1:scrollbarFadeDuration" />
+    <xs:attribute ref="p1:scrollbarDefaultDelayBeforeFade" />
+    <xs:attribute ref="p1:scrollbarSize" />
+    <xs:attribute ref="p1:scrollbarThumbHorizontal" />
+    <xs:attribute ref="p1:scrollbarThumbVertical" />
+    <xs:attribute ref="p1:scrollbarTrackHorizontal" />
+    <xs:attribute ref="p1:scrollbarTrackVertical" />
+    <xs:attribute ref="p1:scrollbarAlwaysDrawHorizontalTrack" />
+    <xs:attribute ref="p1:scrollbarAlwaysDrawVerticalTrack" />
+    <xs:attribute ref="p1:fadingEdge" />
+    <xs:attribute ref="p1:requiresFadingEdge" />
+    <xs:attribute ref="p1:fadingEdgeLength" />
+    <xs:attribute ref="p1:nextFocusLeft" />
+    <xs:attribute ref="p1:nextFocusRight" />
+    <xs:attribute ref="p1:nextFocusUp" />
+    <xs:attribute ref="p1:nextFocusDown" />
+    <xs:attribute ref="p1:nextFocusForward" />
+    <xs:attribute ref="p1:clickable" />
+    <xs:attribute ref="p1:longClickable" />
+    <xs:attribute ref="p1:contextClickable" />
+    <xs:attribute ref="p1:saveEnabled" />
+    <xs:attribute ref="p1:filterTouchesWhenObscured" />
+    <xs:attribute ref="p1:drawingCacheQuality" />
+    <xs:attribute ref="p1:keepScreenOn" />
+    <xs:attribute ref="p1:duplicateParentState" />
+    <xs:attribute ref="p1:minHeight" />
+    <xs:attribute ref="p1:minWidth" />
+    <xs:attribute ref="p1:soundEffectsEnabled" />
+    <xs:attribute ref="p1:hapticFeedbackEnabled" />
+    <xs:attribute ref="p1:contentDescription" />
+    <xs:attribute ref="p1:accessibilityTraversalBefore" />
+    <xs:attribute ref="p1:accessibilityTraversalAfter" />
+    <xs:attribute ref="p1:onClick" />
+    <xs:attribute ref="p1:overScrollMode" />
+    <xs:attribute ref="p1:alpha" />
+    <xs:attribute ref="p1:elevation" />
+    <xs:attribute ref="p1:translationX" />
+    <xs:attribute ref="p1:translationY" />
+    <xs:attribute ref="p1:translationZ" />
+    <xs:attribute ref="p1:transformPivotX" />
+    <xs:attribute ref="p1:transformPivotY" />
+    <xs:attribute ref="p1:rotation" />
+    <xs:attribute ref="p1:rotationX" />
+    <xs:attribute ref="p1:rotationY" />
+    <xs:attribute ref="p1:scaleX" />
+    <xs:attribute ref="p1:scaleY" />
+    <xs:attribute ref="p1:verticalScrollbarPosition" />
+    <xs:attribute ref="p1:layerType" />
+    <xs:attribute ref="p1:layoutDirection" />
+    <xs:attribute ref="p1:textDirection" />
+    <xs:attribute ref="p1:textAlignment" />
+    <xs:attribute ref="p1:importantForAccessibility" />
+    <xs:attribute ref="p1:accessibilityLiveRegion" />
+    <xs:attribute ref="p1:labelFor" />
+    <xs:attribute ref="p1:theme" />
+    <xs:attribute ref="p1:transitionName" />
+    <xs:attribute ref="p1:nestedScrollingEnabled" />
+    <xs:attribute ref="p1:stateListAnimator" />
+    <xs:attribute ref="p1:backgroundTint" />
+    <xs:attribute ref="p1:backgroundTintMode" />
+    <xs:attribute ref="p1:outlineProvider" />
+    <xs:attribute ref="p1:foreground" />
+    <xs:attribute ref="p1:foregroundGravity" />
+    <xs:attribute ref="p1:foregroundInsidePadding" />
+    <xs:attribute ref="p1:foregroundTint" />
+    <xs:attribute ref="p1:foregroundTintMode" />
+    <xs:attribute ref="p1:scrollIndicators" />
+    <xs:attribute ref="p1:pointerIcon" />
+    <xs:attribute ref="p1:forceHasOverlappingRendering" />
+    <xs:attribute ref="tools:visibility" />
+    <xs:attribute ref="p1:layout_width" />
+    <xs:attribute ref="p1:layout_height" />
+    <xs:attribute ref="p1:layout_weight" />
+    <xs:attribute ref="p1:layout_gravity" />
+    <xs:attribute ref="p1:layout_margin" />
+    <xs:attribute ref="p1:layout_marginLeft" />
+    <xs:attribute ref="p1:layout_marginTop" />
+    <xs:attribute ref="p1:layout_marginRight" />
+    <xs:attribute ref="p1:layout_marginBottom" />
+    <xs:attribute ref="p1:layout_marginStart" />
+    <xs:attribute ref="p1:layout_marginEnd" />
+    <xs:attribute ref="p1:style" />
+  </xs:complexType>
+  <xs:element name="MultiAutoCompleteTextView" type="MultiAutoCompleteTextView">
+    <xs:annotation>
+      <xs:documentation>Runtime Type: android.widget.MultiAutoCompleteTextView</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="MultiAutoCompleteTextView">
+    <xs:complexContent mixed="false">
+      <xs:extension base="AutoCompleteTextView" />
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="AutoCompleteTextView" type="AutoCompleteTextView">
+    <xs:annotation>
+      <xs:documentation>Runtime Type: android.widget.AutoCompleteTextView</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="AutoCompleteTextView">
+    <xs:complexContent mixed="false">
+      <xs:extension base="EditText">
+        <xs:attribute ref="p1:completionHint" />
+        <xs:attribute ref="p1:completionHintView" />
+        <xs:attribute ref="p1:completionThreshold" />
+        <xs:attribute ref="p1:dropDownSelector" />
+        <xs:attribute ref="p1:dropDownAnchor" />
+        <xs:attribute ref="p1:dropDownWidth" />
+        <xs:attribute ref="p1:dropDownHeight" />
+        <xs:attribute ref="p1:popupTheme" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="EditText" type="EditText">
+    <xs:annotation>
+      <xs:documentation>Runtime Type: android.widget.EditText</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="EditText">
+    <xs:complexContent mixed="false">
+      <xs:extension base="TextView" />
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="TextureView" type="TextureView">
+    <xs:annotation>
+      <xs:documentation>Runtime Type: android.view.TextureView</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="TextureView">
+    <xs:complexContent mixed="false">
+      <xs:extension base="View" />
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="ZoomButton" type="ZoomButton">
+    <xs:annotation>
+      <xs:documentation>Runtime Type: android.widget.ZoomButton</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="ZoomButton">
+    <xs:complexContent mixed="false">
+      <xs:extension base="ImageButton" />
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="ImageButton" type="ImageButton">
+    <xs:annotation>
+      <xs:documentation>Runtime Type: android.widget.ImageButton</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="ImageButton">
+    <xs:complexContent mixed="false">
+      <xs:extension base="ImageView" />
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="ImageView" type="ImageView">
+    <xs:annotation>
+      <xs:documentation>Runtime Type: android.widget.ImageView</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="ImageView">
+    <xs:complexContent mixed="false">
+      <xs:extension base="View">
+        <xs:attribute ref="p1:src" />
+        <xs:attribute ref="p1:scaleType" />
+        <xs:attribute ref="p1:adjustViewBounds" />
+        <xs:attribute ref="p1:maxWidth" />
+        <xs:attribute ref="p1:maxHeight" />
+        <xs:attribute ref="p1:tint" />
+        <xs:attribute ref="p1:baselineAlignBottom" />
+        <xs:attribute ref="p1:cropToPadding" />
+        <xs:attribute ref="p1:baseline" />
+        <xs:attribute ref="p1:drawableAlpha" />
+        <xs:attribute ref="p1:tintMode" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="android.webkit.WebView" type="android.webkit.WebView">
+    <xs:annotation>
+      <xs:documentation>Runtime Type: android.webkit.WebView</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="android.webkit.WebView">
+    <xs:complexContent mixed="false">
+      <xs:extension base="AbsoluteLayout" />
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="AbsoluteLayout" type="AbsoluteLayout">
+    <xs:annotation>
+      <xs:documentation>Runtime Type: android.widget.AbsoluteLayout</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="AbsoluteLayout">
+    <xs:complexContent mixed="false">
+      <xs:extension base="ViewGroup" />
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="ViewGroup" type="ViewGroup">
+    <xs:annotation>
+      <xs:documentation>Attributes that can be used with a android.view.ViewGroup or any of its subclasses. Also see .ViewGroup_Layout for attributes that this class processes in its children.</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="ViewGroup">
+    <xs:complexContent mixed="false">
+      <xs:extension base="View">
+        <xs:group minOccurs="0" maxOccurs="unbounded" ref="any-view" />
+        <xs:attribute ref="p1:animateLayoutChanges" />
+        <xs:attribute ref="p1:clipChildren" />
+        <xs:attribute ref="p1:clipToPadding" />
+        <xs:attribute ref="p1:layoutAnimation" />
+        <xs:attribute ref="p1:animationCache" />
+        <xs:attribute ref="p1:persistentDrawingCache" />
+        <xs:attribute ref="p1:alwaysDrawnWithCache" />
+        <xs:attribute ref="p1:addStatesFromChildren" />
+        <xs:attribute ref="p1:descendantFocusability" />
+        <xs:attribute ref="p1:touchscreenBlocksFocus" />
+        <xs:attribute ref="p1:splitMotionEvents" />
+        <xs:attribute ref="p1:layoutMode" />
+        <xs:attribute ref="p1:transitionGroup" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="Switch" type="Switch">
+    <xs:annotation>
+      <xs:documentation>Runtime Type: android.widget.Switch</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="Switch">
+    <xs:complexContent mixed="false">
+      <xs:extension base="CompoundButton">
+        <xs:attribute ref="p1:thumb" />
+        <xs:attribute ref="p1:thumbTint" />
+        <xs:attribute ref="p1:thumbTintMode" />
+        <xs:attribute ref="p1:track" />
+        <xs:attribute ref="p1:trackTint" />
+        <xs:attribute ref="p1:trackTintMode" />
+        <xs:attribute ref="p1:textOn" />
+        <xs:attribute ref="p1:textOff" />
+        <xs:attribute ref="p1:thumbTextPadding" />
+        <xs:attribute ref="p1:switchTextAppearance" />
+        <xs:attribute ref="p1:switchMinWidth" />
+        <xs:attribute ref="p1:switchPadding" />
+        <xs:attribute ref="p1:splitTrack" />
+        <xs:attribute ref="p1:showText" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="CompoundButton" type="CompoundButton">
+    <xs:annotation>
+      <xs:documentation>Runtime Type: android.widget.CompoundButton</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="CompoundButton">
+    <xs:complexContent mixed="false">
+      <xs:extension base="Button">
+        <xs:attribute ref="p1:checked" />
+        <xs:attribute ref="p1:button" />
+        <xs:attribute ref="p1:buttonTint" />
+        <xs:attribute ref="p1:buttonTintMode" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="Button" type="Button">
+    <xs:annotation>
+      <xs:documentation>Runtime Type: android.widget.Button</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="Button">
+    <xs:complexContent mixed="false">
+      <xs:extension base="TextView" />
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="ZoomControls" type="ZoomControls">
+    <xs:annotation>
+      <xs:documentation>Runtime Type: android.widget.ZoomControls</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="ZoomControls">
+    <xs:complexContent mixed="false">
+      <xs:extension base="LinearLayout" />
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="LinearLayout" type="LinearLayout">
+    <xs:annotation>
+      <xs:documentation>Runtime Type: android.widget.LinearLayout</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="LinearLayout">
+    <xs:complexContent mixed="false">
+      <xs:extension base="ViewGroup">
+        <xs:attribute ref="p1:orientation" />
+        <xs:attribute ref="p1:gravity" />
+        <xs:attribute ref="p1:baselineAligned" />
+        <xs:attribute ref="p1:baselineAlignedChildIndex" />
+        <xs:attribute ref="p1:weightSum" />
+        <xs:attribute ref="p1:measureWithLargestChild" />
+        <xs:attribute ref="p1:divider" />
+        <xs:attribute ref="p1:showDividers" />
+        <xs:attribute ref="p1:dividerPadding" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="Chronometer" type="Chronometer">
+    <xs:annotation>
+      <xs:documentation>Runtime Type: android.widget.Chronometer</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="Chronometer">
+    <xs:complexContent mixed="false">
+      <xs:extension base="TextView">
+        <xs:attribute ref="p1:format" />
+        <xs:attribute ref="p1:countDown" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="NumberPicker" type="NumberPicker">
+    <xs:annotation>
+      <xs:documentation>Runtime Type: android.widget.NumberPicker</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="NumberPicker">
+    <xs:complexContent mixed="false">
+      <xs:extension base="LinearLayout">
+        <xs:attribute ref="p1:solidColor" />
+        <xs:attribute ref="p1:selectionDivider" />
+        <xs:attribute ref="p1:selectionDividerHeight" />
+        <xs:attribute ref="p1:selectionDividersDistance" />
+        <xs:attribute ref="p1:internalMinHeight" />
+        <xs:attribute ref="p1:internalMaxHeight" />
+        <xs:attribute ref="p1:internalMinWidth" />
+        <xs:attribute ref="p1:internalMaxWidth" />
+        <xs:attribute ref="p1:internalLayout" />
+        <xs:attribute ref="p1:virtualButtonPressedDrawable" />
+        <xs:attribute ref="p1:hideWheelUntilFocused" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="VideoView" type="VideoView">
+    <xs:annotation>
+      <xs:documentation>Runtime Type: android.widget.VideoView</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="VideoView">
+    <xs:complexContent mixed="false">
+      <xs:extension base="SurfaceView" />
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="SurfaceView" type="SurfaceView">
+    <xs:annotation>
+      <xs:documentation>Runtime Type: android.view.SurfaceView</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="SurfaceView">
+    <xs:complexContent mixed="false">
+      <xs:extension base="View" />
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="QuickContactBadge" type="QuickContactBadge">
+    <xs:annotation>
+      <xs:documentation>Runtime Type: android.widget.QuickContactBadge</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="QuickContactBadge">
+    <xs:complexContent mixed="false">
+      <xs:extension base="ImageView">
+        <xs:attribute ref="p1:quickContactWindowSize" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="ToggleButton" type="ToggleButton">
+    <xs:annotation>
+      <xs:documentation>Runtime Type: android.widget.ToggleButton</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="ToggleButton">
+    <xs:complexContent mixed="false">
+      <xs:extension base="CompoundButton">
+        <xs:attribute ref="p1:textOn" />
+        <xs:attribute ref="p1:textOff" />
+        <xs:attribute ref="p1:disabledAlpha" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="RatingBar" type="RatingBar">
+    <xs:annotation>
+      <xs:documentation>Runtime Type: android.widget.RatingBar</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="RatingBar">
+    <xs:complexContent mixed="false">
+      <xs:extension base="AbsSeekBar">
+        <xs:attribute ref="p1:numStars" />
+        <xs:attribute ref="p1:rating" />
+        <xs:attribute ref="p1:stepSize" />
+        <xs:attribute ref="p1:isIndicator" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="AbsSeekBar" type="AbsSeekBar">
+    <xs:annotation>
+      <xs:documentation>Runtime Type: android.widget.AbsSeekBar</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="AbsSeekBar">
+    <xs:complexContent mixed="false">
+      <xs:extension base="ProgressBar" />
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="ProgressBar" type="ProgressBar">
+    <xs:annotation>
+      <xs:documentation>Runtime Type: android.widget.ProgressBar</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="ProgressBar">
+    <xs:complexContent mixed="false">
+      <xs:extension base="View">
+        <xs:attribute ref="p1:max" />
+        <xs:attribute ref="p1:progress" />
+        <xs:attribute ref="p1:secondaryProgress" />
+        <xs:attribute ref="p1:indeterminate" />
+        <xs:attribute ref="p1:indeterminateOnly" />
+        <xs:attribute ref="p1:indeterminateDrawable" />
+        <xs:attribute ref="p1:progressDrawable" />
+        <xs:attribute ref="p1:indeterminateDuration" />
+        <xs:attribute ref="p1:indeterminateBehavior" />
+        <xs:attribute ref="p1:maxWidth" />
+        <xs:attribute ref="p1:maxHeight" />
+        <xs:attribute ref="p1:interpolator" />
+        <xs:attribute ref="p1:animationResolution" />
+        <xs:attribute ref="p1:mirrorForRtl" />
+        <xs:attribute ref="p1:progressTint" />
+        <xs:attribute ref="p1:progressTintMode" />
+        <xs:attribute ref="p1:progressBackgroundTint" />
+        <xs:attribute ref="p1:progressBackgroundTintMode" />
+        <xs:attribute ref="p1:secondaryProgressTint" />
+        <xs:attribute ref="p1:secondaryProgressTintMode" />
+        <xs:attribute ref="p1:indeterminateTint" />
+        <xs:attribute ref="p1:indeterminateTintMode" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="Space" type="Space">
+    <xs:annotation>
+      <xs:documentation>Runtime Type: android.widget.Space</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="Space">
+    <xs:complexContent mixed="false">
+      <xs:extension base="View" />
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="ViewStub" type="ViewStub">
+    <xs:annotation>
+      <xs:documentation>A android.view.ViewStub lets you lazily include other XML layouts inside your application at runtime.</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="ViewStub">
+    <xs:complexContent mixed="false">
+      <xs:extension base="View">
+        <xs:attribute ref="p1:layout" />
+        <xs:attribute ref="p1:inflatedId" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="TimePicker" type="TimePicker">
+    <xs:annotation>
+      <xs:documentation>Runtime Type: android.widget.TimePicker</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="TimePicker">
+    <xs:complexContent mixed="false">
+      <xs:extension base="FrameLayout">
+        <xs:attribute ref="p1:legacyLayout" />
+        <xs:attribute ref="p1:internalLayout" />
+        <xs:attribute ref="p1:headerTextColor" />
+        <xs:attribute ref="p1:headerBackground" />
+        <xs:attribute ref="p1:numbersTextColor" />
+        <xs:attribute ref="p1:numbersInnerTextColor" />
+        <xs:attribute ref="p1:numbersBackgroundColor" />
+        <xs:attribute ref="p1:numbersSelectorColor" />
+        <xs:attribute ref="p1:timePickerMode" />
+        <xs:attribute ref="p1:headerAmPmTextAppearance" />
+        <xs:attribute ref="p1:headerTimeTextAppearance" />
+        <xs:attribute ref="p1:amPmTextColor" />
+        <xs:attribute ref="p1:amPmBackgroundColor" />
+        <xs:attribute ref="p1:dialogMode" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="FrameLayout" type="FrameLayout">
+    <xs:annotation>
+      <xs:documentation>Runtime Type: android.widget.FrameLayout</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="FrameLayout">
+    <xs:complexContent mixed="false">
+      <xs:extension base="ViewGroup">
+        <xs:attribute ref="p1:measureAllChildren" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="DigitalClock" type="DigitalClock">
+    <xs:annotation>
+      <xs:documentation>Runtime Type: android.widget.DigitalClock</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="DigitalClock">
+    <xs:complexContent mixed="false">
+      <xs:extension base="TextView" />
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="Spinner" type="Spinner">
+    <xs:annotation>
+      <xs:documentation>Runtime Type: android.widget.Spinner</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="Spinner">
+    <xs:complexContent mixed="false">
+      <xs:extension base="AbsSpinner">
+        <xs:attribute ref="p1:prompt" />
+        <xs:attribute ref="p1:spinnerMode" />
+        <xs:attribute ref="p1:dropDownSelector" />
+        <xs:attribute ref="p1:popupTheme" />
+        <xs:attribute ref="p1:popupBackground" />
+        <xs:attribute ref="p1:popupElevation" />
+        <xs:attribute ref="p1:dropDownWidth" />
+        <xs:attribute ref="p1:popupPromptView" />
+        <xs:attribute ref="p1:gravity" />
+        <xs:attribute ref="p1:disableChildrenWhenDisabled" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="AbsSpinner" type="AbsSpinner">
+    <xs:annotation>
+      <xs:documentation>Runtime Type: android.widget.AbsSpinner</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="AbsSpinner">
+    <xs:complexContent mixed="false">
+      <xs:extension base="AdapterView">
+        <xs:attribute ref="p1:entries" />
+        <xs:attribute ref="tools:listitem" />
+        <xs:attribute ref="tools:listheader" />
+        <xs:attribute ref="tools:listfooter" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="AdapterView" type="AdapterView">
+    <xs:annotation>
+      <xs:documentation>Runtime Type: android.widget.AdapterView</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="AdapterView">
+    <xs:complexContent mixed="false">
+      <xs:extension base="ViewGroup" />
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="AnalogClock" type="AnalogClock">
+    <xs:annotation>
+      <xs:documentation>Runtime Type: android.widget.AnalogClock</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="AnalogClock">
+    <xs:complexContent mixed="false">
+      <xs:extension base="View">
+        <xs:attribute ref="p1:dial" />
+        <xs:attribute ref="p1:hand_hour" />
+        <xs:attribute ref="p1:hand_minute" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="TwoLineListItem" type="TwoLineListItem">
+    <xs:annotation>
+      <xs:documentation>Runtime Type: android.widget.TwoLineListItem</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="TwoLineListItem">
+    <xs:complexContent mixed="false">
+      <xs:extension base="RelativeLayout">
+        <xs:attribute ref="p1:mode" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="RelativeLayout" type="RelativeLayout">
+    <xs:annotation>
+      <xs:documentation>Runtime Type: android.widget.RelativeLayout</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="RelativeLayout">
+    <xs:complexContent mixed="false">
+      <xs:extension base="ViewGroup">
+        <xs:attribute ref="p1:gravity" />
+        <xs:attribute ref="p1:ignoreGravity" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="DatePicker" type="DatePicker">
+    <xs:annotation>
+      <xs:documentation>Runtime Type: android.widget.DatePicker</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="DatePicker">
+    <xs:complexContent mixed="false">
+      <xs:extension base="FrameLayout">
+        <xs:attribute ref="p1:firstDayOfWeek" />
+        <xs:attribute ref="p1:minDate" />
+        <xs:attribute ref="p1:maxDate" />
+        <xs:attribute ref="p1:spinnersShown" />
+        <xs:attribute ref="p1:calendarViewShown" />
+        <xs:attribute ref="p1:internalLayout" />
+        <xs:attribute ref="p1:legacyLayout" />
+        <xs:attribute ref="p1:headerTextColor" />
+        <xs:attribute ref="p1:headerBackground" />
+        <xs:attribute ref="p1:yearListItemTextAppearance" />
+        <xs:attribute ref="p1:yearListItemActivatedTextAppearance" />
+        <xs:attribute ref="p1:calendarTextColor" />
+        <xs:attribute ref="p1:datePickerMode" />
+        <xs:attribute ref="p1:startYear" />
+        <xs:attribute ref="p1:endYear" />
+        <xs:attribute ref="p1:headerMonthTextAppearance" />
+        <xs:attribute ref="p1:headerDayOfMonthTextAppearance" />
+        <xs:attribute ref="p1:headerYearTextAppearance" />
+        <xs:attribute ref="p1:dayOfWeekBackground" />
+        <xs:attribute ref="p1:dayOfWeekTextAppearance" />
+        <xs:attribute ref="p1:yearListSelectorColor" />
+        <xs:attribute ref="p1:dialogMode" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="RadioButton" type="RadioButton">
+    <xs:annotation>
+      <xs:documentation>Runtime Type: android.widget.RadioButton</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="RadioButton">
+    <xs:complexContent mixed="false">
+      <xs:extension base="CompoundButton" />
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="CheckBox" type="CheckBox">
+    <xs:annotation>
+      <xs:documentation>Runtime Type: android.widget.CheckBox</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="CheckBox">
+    <xs:complexContent mixed="false">
+      <xs:extension base="CompoundButton" />
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="CalendarView" type="CalendarView">
+    <xs:annotation>
+      <xs:documentation>Runtime Type: android.widget.CalendarView</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="CalendarView">
+    <xs:complexContent mixed="false">
+      <xs:extension base="FrameLayout">
+        <xs:attribute ref="p1:firstDayOfWeek" />
+        <xs:attribute ref="p1:minDate" />
+        <xs:attribute ref="p1:maxDate" />
+        <xs:attribute ref="p1:monthTextAppearance" />
+        <xs:attribute ref="p1:weekDayTextAppearance" />
+        <xs:attribute ref="p1:dateTextAppearance" />
+        <xs:attribute ref="p1:daySelectorColor" />
+        <xs:attribute ref="p1:dayHighlightColor" />
+        <xs:attribute ref="p1:calendarViewMode" />
+        <xs:attribute ref="p1:showWeekNumber" />
+        <xs:attribute ref="p1:shownWeekCount" />
+        <xs:attribute ref="p1:selectedWeekBackgroundColor" />
+        <xs:attribute ref="p1:focusedMonthDateColor" />
+        <xs:attribute ref="p1:unfocusedMonthDateColor" />
+        <xs:attribute ref="p1:weekNumberColor" />
+        <xs:attribute ref="p1:weekSeparatorLineColor" />
+        <xs:attribute ref="p1:selectedDateVerticalBar" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="Gallery" type="Gallery">
+    <xs:annotation>
+      <xs:documentation>Runtime Type: android.widget.Gallery</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="Gallery">
+    <xs:complexContent mixed="false">
+      <xs:extension base="AbsSpinner">
+        <xs:attribute ref="p1:gravity" />
+        <xs:attribute ref="p1:animationDuration" />
+        <xs:attribute ref="p1:spacing" />
+        <xs:attribute ref="p1:unselectedAlpha" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="android.gesture.GestureOverlayView" type="android.gesture.GestureOverlayView">
+    <xs:annotation>
+      <xs:documentation>GestureOverlayView specific attributes. These attributes are used to configure a GestureOverlayView from XML.</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="android.gesture.GestureOverlayView">
+    <xs:complexContent mixed="false">
+      <xs:extension base="FrameLayout">
+        <xs:attribute ref="p1:gestureStrokeWidth" />
+        <xs:attribute ref="p1:gestureColor" />
+        <xs:attribute ref="p1:uncertainGestureColor" />
+        <xs:attribute ref="p1:fadeOffset" />
+        <xs:attribute ref="p1:fadeDuration" />
+        <xs:attribute ref="p1:gestureStrokeType" />
+        <xs:attribute ref="p1:gestureStrokeLengthThreshold" />
+        <xs:attribute ref="p1:gestureStrokeSquarenessThreshold" />
+        <xs:attribute ref="p1:gestureStrokeAngleThreshold" />
+        <xs:attribute ref="p1:eventsInterceptionEnabled" />
+        <xs:attribute ref="p1:fadeEnabled" />
+        <xs:attribute ref="p1:orientation" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="SeekBar" type="SeekBar">
+    <xs:annotation>
+      <xs:documentation>Runtime Type: android.widget.SeekBar</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="SeekBar">
+    <xs:complexContent mixed="false">
+      <xs:extension base="AbsSeekBar">
+        <xs:attribute ref="p1:thumb" />
+        <xs:attribute ref="p1:thumbOffset" />
+        <xs:attribute ref="p1:splitTrack" />
+        <xs:attribute ref="p1:useDisabledAlpha" />
+        <xs:attribute ref="p1:thumbTint" />
+        <xs:attribute ref="p1:thumbTintMode" />
+        <xs:attribute ref="p1:tickMark" />
+        <xs:attribute ref="p1:tickMarkTint" />
+        <xs:attribute ref="p1:tickMarkTintMode" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="TextClock" type="TextClock">
+    <xs:annotation>
+      <xs:documentation>Runtime Type: android.widget.TextClock</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="TextClock">
+    <xs:complexContent mixed="false">
+      <xs:extension base="TextView">
+        <xs:attribute ref="p1:format12Hour" />
+        <xs:attribute ref="p1:format24Hour" />
+        <xs:attribute ref="p1:timeZone" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="MediaController" type="MediaController">
+    <xs:annotation>
+      <xs:documentation>Runtime Type: android.widget.MediaController</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="MediaController">
+    <xs:complexContent mixed="false">
+      <xs:extension base="FrameLayout" />
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="Toolbar" type="Toolbar">
+    <xs:annotation>
+      <xs:documentation>Runtime Type: android.widget.Toolbar</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="Toolbar">
+    <xs:complexContent mixed="false">
+      <xs:extension base="ViewGroup">
+        <xs:attribute ref="p1:titleTextAppearance" />
+        <xs:attribute ref="p1:subtitleTextAppearance" />
+        <xs:attribute ref="p1:title" />
+        <xs:attribute ref="p1:subtitle" />
+        <xs:attribute ref="p1:gravity" />
+        <xs:attribute ref="p1:titleMargin" />
+        <xs:attribute ref="p1:titleMarginStart" />
+        <xs:attribute ref="p1:titleMarginEnd" />
+        <xs:attribute ref="p1:titleMarginTop" />
+        <xs:attribute ref="p1:titleMarginBottom" />
+        <xs:attribute ref="p1:contentInsetStart" />
+        <xs:attribute ref="p1:contentInsetEnd" />
+        <xs:attribute ref="p1:contentInsetLeft" />
+        <xs:attribute ref="p1:contentInsetRight" />
+        <xs:attribute ref="p1:contentInsetStartWithNavigation" />
+        <xs:attribute ref="p1:contentInsetEndWithActions" />
+        <xs:attribute ref="p1:maxButtonHeight" />
+        <xs:attribute ref="p1:navigationButtonStyle" />
+        <xs:attribute ref="p1:buttonGravity" />
+        <xs:attribute ref="p1:collapseIcon" />
+        <xs:attribute ref="p1:collapseContentDescription" />
+        <xs:attribute ref="p1:popupTheme" />
+        <xs:attribute ref="p1:navigationIcon" />
+        <xs:attribute ref="p1:navigationContentDescription" />
+        <xs:attribute ref="p1:logo" />
+        <xs:attribute ref="p1:logoDescription" />
+        <xs:attribute ref="p1:titleTextColor" />
+        <xs:attribute ref="p1:subtitleTextColor" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="TableRow" type="TableRow">
+    <xs:annotation>
+      <xs:documentation>Runtime Type: android.widget.TableRow</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="TableRow">
+    <xs:complexContent mixed="false">
+      <xs:extension base="LinearLayout" />
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="SearchView" type="SearchView">
+    <xs:annotation>
+      <xs:documentation>Runtime Type: android.widget.SearchView</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="SearchView">
+    <xs:complexContent mixed="false">
+      <xs:extension base="LinearLayout">
+        <xs:attribute ref="p1:layout" />
+        <xs:attribute ref="p1:iconifiedByDefault" />
+        <xs:attribute ref="p1:maxWidth" />
+        <xs:attribute ref="p1:queryHint" />
+        <xs:attribute ref="p1:defaultQueryHint" />
+        <xs:attribute ref="p1:imeOptions" />
+        <xs:attribute ref="p1:inputType" />
+        <xs:attribute ref="p1:closeIcon" />
+        <xs:attribute ref="p1:goIcon" />
+        <xs:attribute ref="p1:searchIcon" />
+        <xs:attribute ref="p1:searchHintIcon" />
+        <xs:attribute ref="p1:voiceIcon" />
+        <xs:attribute ref="p1:commitIcon" />
+        <xs:attribute ref="p1:suggestionRowLayout" />
+        <xs:attribute ref="p1:queryBackground" />
+        <xs:attribute ref="p1:submitBackground" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="GridView" type="GridView">
+    <xs:annotation>
+      <xs:documentation>Runtime Type: android.widget.GridView</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="GridView">
+    <xs:complexContent mixed="false">
+      <xs:extension base="AbsListView">
+        <xs:attribute ref="p1:horizontalSpacing" />
+        <xs:attribute ref="p1:verticalSpacing" />
+        <xs:attribute ref="p1:stretchMode" />
+        <xs:attribute ref="p1:columnWidth" />
+        <xs:attribute ref="p1:numColumns" />
+        <xs:attribute ref="p1:gravity" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="AbsListView" type="AbsListView">
+    <xs:annotation>
+      <xs:documentation>Runtime Type: android.widget.AbsListView</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="AbsListView">
+    <xs:complexContent mixed="false">
+      <xs:extension base="AdapterView">
+        <xs:attribute ref="p1:listSelector" />
+        <xs:attribute ref="p1:drawSelectorOnTop" />
+        <xs:attribute ref="p1:stackFromBottom" />
+        <xs:attribute ref="p1:scrollingCache" />
+        <xs:attribute ref="p1:textFilterEnabled" />
+        <xs:attribute ref="p1:transcriptMode" />
+        <xs:attribute ref="p1:cacheColorHint" />
+        <xs:attribute ref="p1:fastScrollEnabled" />
+        <xs:attribute ref="p1:fastScrollStyle" />
+        <xs:attribute ref="p1:smoothScrollbar" />
+        <xs:attribute ref="p1:choiceMode" />
+        <xs:attribute ref="p1:fastScrollAlwaysVisible" />
+        <xs:attribute ref="tools:listitem" />
+        <xs:attribute ref="tools:listheader" />
+        <xs:attribute ref="tools:listfooter" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="SlidingDrawer" type="SlidingDrawer">
+    <xs:annotation>
+      <xs:documentation>SlidingDrawer specific attributes. These attributes are used to configure a SlidingDrawer from XML.</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="SlidingDrawer">
+    <xs:complexContent mixed="false">
+      <xs:extension base="ViewGroup">
+        <xs:attribute ref="p1:handle" />
+        <xs:attribute ref="p1:content" />
+        <xs:attribute ref="p1:orientation" />
+        <xs:attribute ref="p1:bottomOffset" />
+        <xs:attribute ref="p1:topOffset" />
+        <xs:attribute ref="p1:allowSingleTap" />
+        <xs:attribute ref="p1:animateOnClick" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="TabWidget" type="TabWidget">
+    <xs:annotation>
+      <xs:documentation>Runtime Type: android.widget.TabWidget</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="TabWidget">
+    <xs:complexContent mixed="false">
+      <xs:extension base="LinearLayout">
+        <xs:attribute ref="p1:tabStripEnabled" />
+        <xs:attribute ref="p1:tabStripLeft" />
+        <xs:attribute ref="p1:tabStripRight" />
+        <xs:attribute ref="p1:tabLayout" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="ImageSwitcher" type="ImageSwitcher">
+    <xs:annotation>
+      <xs:documentation>Runtime Type: android.widget.ImageSwitcher</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="ImageSwitcher">
+    <xs:complexContent mixed="false">
+      <xs:extension base="ViewSwitcher" />
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="ViewSwitcher" type="ViewSwitcher">
+    <xs:annotation>
+      <xs:documentation>Runtime Type: android.widget.ViewSwitcher</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="ViewSwitcher">
+    <xs:complexContent mixed="false">
+      <xs:extension base="ViewAnimator" />
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="ViewAnimator" type="ViewAnimator">
+    <xs:annotation>
+      <xs:documentation>Runtime Type: android.widget.ViewAnimator</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="ViewAnimator">
+    <xs:complexContent mixed="false">
+      <xs:extension base="FrameLayout">
+        <xs:attribute ref="p1:inAnimation" />
+        <xs:attribute ref="p1:outAnimation" />
+        <xs:attribute ref="p1:animateFirstView" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="GridLayout" type="GridLayout">
+    <xs:annotation>
+      <xs:documentation>Runtime Type: android.widget.GridLayout</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="GridLayout">
+    <xs:complexContent mixed="false">
+      <xs:extension base="ViewGroup">
+        <xs:attribute ref="p1:orientation" />
+        <xs:attribute ref="p1:rowCount" />
+        <xs:attribute ref="p1:columnCount" />
+        <xs:attribute ref="p1:useDefaultMargins" />
+        <xs:attribute ref="p1:alignmentMode" />
+        <xs:attribute ref="p1:rowOrderPreserved" />
+        <xs:attribute ref="p1:columnOrderPreserved" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="ViewFlipper" type="ViewFlipper">
+    <xs:annotation>
+      <xs:documentation>Runtime Type: android.widget.ViewFlipper</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="ViewFlipper">
+    <xs:complexContent mixed="false">
+      <xs:extension base="ViewAnimator">
+        <xs:attribute ref="p1:flipInterval" />
+        <xs:attribute ref="p1:autoStart" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="HorizontalScrollView" type="HorizontalScrollView">
+    <xs:annotation>
+      <xs:documentation>Runtime Type: android.widget.HorizontalScrollView</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="HorizontalScrollView">
+    <xs:complexContent mixed="false">
+      <xs:extension base="FrameLayout">
+        <xs:attribute ref="p1:fillViewport" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="TableLayout" type="TableLayout">
+    <xs:annotation>
+      <xs:documentation>Runtime Type: android.widget.TableLayout</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="TableLayout">
+    <xs:complexContent mixed="false">
+      <xs:extension base="LinearLayout">
+        <xs:attribute ref="p1:stretchColumns" />
+        <xs:attribute ref="p1:shrinkColumns" />
+        <xs:attribute ref="p1:collapseColumns" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="TabHost" type="TabHost">
+    <xs:annotation>
+      <xs:documentation>Runtime Type: android.widget.TabHost</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="TabHost">
+    <xs:complexContent mixed="false">
+      <xs:extension base="FrameLayout" />
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="ExpandableListView" type="ExpandableListView">
+    <xs:annotation>
+      <xs:documentation>Runtime Type: android.widget.ExpandableListView</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="ExpandableListView">
+    <xs:complexContent mixed="false">
+      <xs:extension base="ListView">
+        <xs:attribute ref="p1:groupIndicator" />
+        <xs:attribute ref="p1:childIndicator" />
+        <xs:attribute ref="p1:indicatorLeft" />
+        <xs:attribute ref="p1:indicatorRight" />
+        <xs:attribute ref="p1:childIndicatorLeft" />
+        <xs:attribute ref="p1:childIndicatorRight" />
+        <xs:attribute ref="p1:childDivider" />
+        <xs:attribute ref="p1:indicatorStart" />
+        <xs:attribute ref="p1:indicatorEnd" />
+        <xs:attribute ref="p1:childIndicatorStart" />
+        <xs:attribute ref="p1:childIndicatorEnd" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="ListView" type="ListView">
+    <xs:annotation>
+      <xs:documentation>Runtime Type: android.widget.ListView</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="ListView">
+    <xs:complexContent mixed="false">
+      <xs:extension base="AbsListView">
+        <xs:attribute ref="p1:entries" />
+        <xs:attribute ref="p1:divider" />
+        <xs:attribute ref="p1:dividerHeight" />
+        <xs:attribute ref="p1:headerDividersEnabled" />
+        <xs:attribute ref="p1:footerDividersEnabled" />
+        <xs:attribute ref="p1:overScrollHeader" />
+        <xs:attribute ref="p1:overScrollFooter" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="StackView" type="StackView">
+    <xs:annotation>
+      <xs:documentation>Runtime Type: android.widget.StackView</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="StackView">
+    <xs:complexContent mixed="false">
+      <xs:extension base="AdapterViewAnimator">
+        <xs:attribute ref="p1:resOutColor" />
+        <xs:attribute ref="p1:clickColor" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="AdapterViewAnimator" type="AdapterViewAnimator">
+    <xs:annotation>
+      <xs:documentation>Runtime Type: android.widget.AdapterViewAnimator</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="AdapterViewAnimator">
+    <xs:complexContent mixed="false">
+      <xs:extension base="AdapterView">
+        <xs:attribute ref="p1:inAnimation" />
+        <xs:attribute ref="p1:outAnimation" />
+        <xs:attribute ref="p1:loopViews" />
+        <xs:attribute ref="p1:animateFirstView" />
+        <xs:attribute ref="tools:listitem" />
+        <xs:attribute ref="tools:listheader" />
+        <xs:attribute ref="tools:listfooter" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="AdapterViewFlipper" type="AdapterViewFlipper">
+    <xs:annotation>
+      <xs:documentation>Runtime Type: android.widget.AdapterViewFlipper</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="AdapterViewFlipper">
+    <xs:complexContent mixed="false">
+      <xs:extension base="AdapterViewAnimator">
+        <xs:attribute ref="p1:flipInterval" />
+        <xs:attribute ref="p1:autoStart" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="DialerFilter" type="DialerFilter">
+    <xs:annotation>
+      <xs:documentation>Runtime Type: android.widget.DialerFilter</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="DialerFilter">
+    <xs:complexContent mixed="false">
+      <xs:extension base="RelativeLayout" />
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="ScrollView" type="ScrollView">
+    <xs:annotation>
+      <xs:documentation>Runtime Type: android.widget.ScrollView</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="ScrollView">
+    <xs:complexContent mixed="false">
+      <xs:extension base="FrameLayout">
+        <xs:attribute ref="p1:fillViewport" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="ActionMenuView" type="ActionMenuView">
+    <xs:annotation>
+      <xs:documentation>Runtime Type: android.widget.ActionMenuView</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="ActionMenuView">
+    <xs:complexContent mixed="false">
+      <xs:extension base="LinearLayout" />
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="RadioGroup" type="RadioGroup">
+    <xs:annotation>
+      <xs:documentation>Runtime Type: android.widget.RadioGroup</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="RadioGroup">
+    <xs:complexContent mixed="false">
+      <xs:extension base="LinearLayout">
+        <xs:attribute ref="p1:checkedButton" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="TextSwitcher" type="TextSwitcher">
+    <xs:annotation>
+      <xs:documentation>Runtime Type: android.widget.TextSwitcher</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="TextSwitcher">
+    <xs:complexContent mixed="false">
+      <xs:extension base="ViewSwitcher" />
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="fragment" type="fragment">
+    <xs:annotation>
+      <xs:documentation>Attributes that can be used with &lt;fragment&gt; tags inside of the layout of an Activity. This instantiates the given android.app.Fragment and inserts its content view into the current location in the layout.</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="fragment">
+    <xs:attribute ref="p1:name" />
+    <xs:attribute ref="p1:id" />
+    <xs:attribute ref="p1:tag" />
+    <xs:attribute ref="p1:fragmentExitTransition" />
+    <xs:attribute ref="p1:fragmentEnterTransition" />
+    <xs:attribute ref="p1:fragmentSharedElementEnterTransition" />
+    <xs:attribute ref="p1:fragmentReturnTransition" />
+    <xs:attribute ref="p1:fragmentSharedElementReturnTransition" />
+    <xs:attribute ref="p1:fragmentReenterTransition" />
+    <xs:attribute ref="p1:fragmentAllowEnterTransitionOverlap" />
+    <xs:attribute ref="p1:fragmentAllowReturnTransitionOverlap" />
+    <xs:attribute ref="tools:layout" />
+    <xs:attribute ref="p1:layout_width" />
+    <xs:attribute ref="p1:layout_height" />
+    <xs:attribute ref="p1:layout_weight" />
+    <xs:attribute ref="p1:layout_gravity" />
+    <xs:attribute ref="p1:layout_margin" />
+    <xs:attribute ref="p1:layout_marginLeft" />
+    <xs:attribute ref="p1:layout_marginTop" />
+    <xs:attribute ref="p1:layout_marginRight" />
+    <xs:attribute ref="p1:layout_marginBottom" />
+    <xs:attribute ref="p1:layout_marginStart" />
+    <xs:attribute ref="p1:layout_marginEnd" />
+    <xs:attribute ref="p1:style" />
+  </xs:complexType>
+  <xs:element name="include" type="include">
+    <xs:annotation>
+      <xs:documentation>Runtime Type: include</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="include">
+    <xs:attribute ref="p1:id" />
+    <xs:attribute ref="p1:visibility" />
+    <xs:attribute ref="p1:layout_width" />
+    <xs:attribute ref="p1:layout_height" />
+    <xs:attribute ref="p1:style" />
+    <xs:attribute ref="p1:layout" />
+  </xs:complexType>
+</xs:schema>

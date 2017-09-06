@@ -1,0 +1,7 @@
+C:\Users\Nick\source\repos\App4\App4\obj\Release\android\assets\App4.dll
+C:\Users\Nick\source\repos\App4\App4\obj\Release\android\assets\Java.Interop.dll
+C:\Users\Nick\source\repos\App4\App4\obj\Release\android\assets\Mono.Android.dll
+C:\Users\Nick\source\repos\App4\App4\obj\Release\android\assets\System.Core.dll
+C:\Users\Nick\source\repos\App4\App4\obj\Release\android\assets\System.dll
+C:\Users\Nick\source\repos\App4\App4\obj\Release\android\assets\mscorlib.dll
+C:\Users\Nick\source\repos\App4\App4\obj\Release\android\assets\System.Runtime.Serialization.dll

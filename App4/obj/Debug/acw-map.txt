@@ -1,0 +1,24 @@
+SkimmerScanner.About, App4;md5a36792c658e76de85fc768d937528912.About
+SkimmerScanner.About, App4, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null;md5a36792c658e76de85fc768d937528912.About
+SkimmerScanner.About;md5a36792c658e76de85fc768d937528912.About
+skimmerscanner.About;md5a36792c658e76de85fc768d937528912.About
+SkimmerScanner.Alert, App4;md5a36792c658e76de85fc768d937528912.Alert
+SkimmerScanner.Alert, App4, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null;md5a36792c658e76de85fc768d937528912.Alert
+SkimmerScanner.Alert;md5a36792c658e76de85fc768d937528912.Alert
+skimmerscanner.Alert;md5a36792c658e76de85fc768d937528912.Alert
+SkimmerScanner.MainActivity, App4;md5a36792c658e76de85fc768d937528912.MainActivity
+SkimmerScanner.MainActivity, App4, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null;md5a36792c658e76de85fc768d937528912.MainActivity
+SkimmerScanner.MainActivity;md5a36792c658e76de85fc768d937528912.MainActivity
+skimmerscanner.MainActivity;md5a36792c658e76de85fc768d937528912.MainActivity
+SkimmerScanner.MainActivity/Receiver, App4;md5a36792c658e76de85fc768d937528912.MainActivity_Receiver
+SkimmerScanner.MainActivity+Receiver, App4, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null;md5a36792c658e76de85fc768d937528912.MainActivity_Receiver
+SkimmerScanner.MainActivity.Receiver;md5a36792c658e76de85fc768d937528912.MainActivity_Receiver
+skimmerscanner.MainActivity_Receiver;md5a36792c658e76de85fc768d937528912.MainActivity_Receiver
+SkimmerScanner.MildAlert, App4;md5a36792c658e76de85fc768d937528912.MildAlert
+SkimmerScanner.MildAlert, App4, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null;md5a36792c658e76de85fc768d937528912.MildAlert
+SkimmerScanner.MildAlert;md5a36792c658e76de85fc768d937528912.MildAlert
+skimmerscanner.MildAlert;md5a36792c658e76de85fc768d937528912.MildAlert
+SkimmerScanner.OKAlert, App4;md5a36792c658e76de85fc768d937528912.OKAlert
+SkimmerScanner.OKAlert, App4, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null;md5a36792c658e76de85fc768d937528912.OKAlert
+SkimmerScanner.OKAlert;md5a36792c658e76de85fc768d937528912.OKAlert
+skimmerscanner.OKAlert;md5a36792c658e76de85fc768d937528912.OKAlert
