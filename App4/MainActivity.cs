@@ -21,6 +21,7 @@ namespace SkimmerScanner
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.Main);
 
+
             BluetoothAdapter mBluetoothAdapter = BluetoothAdapter.DefaultAdapter;
             if (mBluetoothAdapter == null)
             {
@@ -63,7 +64,7 @@ namespace SkimmerScanner
             var aboutButton = FindViewById<Button>(Resource.Id.button2);
             aboutButton.Click += (sender, e) =>
             {
-                About();
+                About(this);
             };
 
         }
@@ -139,7 +140,7 @@ namespace SkimmerScanner
                     var status = _view.FindViewById<TextView>(Resource.Id.textView2);
                     status.Append("\nFinished Scanning...");
                     _view.FindViewById<ScrollView>(Resource.Id.scrollView1).FullScroll(Android.Views.FocusSearchDirection.Down);
-                    if(HC05Found == false) { AllClear(); }
+                    if(HC05Found == false) { AllClear(context); }
                 }
                 else if (action == BluetoothDevice.ActionPairingRequest)
                 {
@@ -158,15 +159,15 @@ namespace SkimmerScanner
                     }
                     catch (Java.Lang.IllegalAccessException)
                     {
-                        YellowAlert();
+                        YellowAlert(context);
                     }
                     catch (Java.Lang.Reflect.InvocationTargetException)
                     {
-                        YellowAlert();
+                        YellowAlert(context);
                     }
                     catch (Java.Lang.NoSuchMethodException)
                     {
-                        YellowAlert();
+                        YellowAlert(context);
                     }
 
                     BluetoothAdapter mBluetoothAdapter = BluetoothAdapter.DefaultAdapter;
@@ -184,7 +185,7 @@ namespace SkimmerScanner
                         var status = _view.FindViewById<TextView>(Resource.Id.textView2);
                         status.Append("\nFailed to create bluetooth socket...");
                         _view.FindViewById<ScrollView>(Resource.Id.scrollView1).FullScroll(Android.Views.FocusSearchDirection.Down);
-                        YellowAlert();
+                        YellowAlert(context);
 
                     }
 
@@ -199,7 +200,7 @@ namespace SkimmerScanner
                     }
                     catch (IOException)
                     {
-                        YellowAlert();
+                        YellowAlert(context);
                         // Unable to connect; close the socket and return.
                         try
                         {
@@ -212,7 +213,7 @@ namespace SkimmerScanner
                         return;
                     }
 
-                    ConfirmHC(_view, mmSocket, device);
+                    ConfirmHC(_view, mmSocket, device, context);
 
                 }
 
@@ -234,7 +235,7 @@ namespace SkimmerScanner
 
         }
 
-        public static void ConfirmHC(Activity activity, BluetoothSocket socket, BluetoothDevice device)
+        public static void ConfirmHC(Activity activity, BluetoothSocket socket, BluetoothDevice device, Context context)
         {
             
             //Tell the user we're talking to HC-05
@@ -257,33 +258,33 @@ namespace SkimmerScanner
 
             if(Convert.ToChar(buffer[0]) == 'M')
             {
-                Application.Context.StartActivity(new Intent(Application.Context, typeof(Alert)));
+                context.StartActivity(new Intent(context, typeof(Alert)));
             }
-            else { YellowAlert();  }
+            else { YellowAlert(context);  }
 
             var unpair = device.Class.GetMethod("removeBond", null);
             unpair.Invoke(device, null);
 
         }
 
-        public static void YellowAlert()
+        public static void YellowAlert(Context context)
         {
 
-            Application.Context.StartActivity(new Intent(Application.Context, typeof(MildAlert)));
+            context.StartActivity(new Intent(context, typeof(MildAlert)));
 
         }
 
-        public static void AllClear()
+        public static void AllClear(Context context)
         {
 
-            Application.Context.StartActivity(new Intent(Application.Context, typeof(OKAlert)));
+            context.StartActivity(new Intent(context, typeof(OKAlert)));
 
         }
 
-        public static void About()
+        public static void About(Context context)
         {
 
-            Application.Context.StartActivity(new Intent(Application.Context, typeof(About)));
+            context.StartActivity(new Intent(context, typeof(About)));
 
         }
 

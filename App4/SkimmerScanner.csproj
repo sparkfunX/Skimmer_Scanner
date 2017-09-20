@@ -48,9 +48,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <AndroidManagedSymbols>true</AndroidManagedSymbols>
-    <AndroidUseSharedRuntime>False</AndroidUseSharedRuntime>
+    <AndroidUseSharedRuntime>false</AndroidUseSharedRuntime>
     <AndroidLinkMode>SdkOnly</AndroidLinkMode>
-    <EmbedAssembliesIntoApk>True</EmbedAssembliesIntoApk>
+    <EmbedAssembliesIntoApk>true</EmbedAssembliesIntoApk>
     <AotAssemblies>false</AotAssemblies>
     <EnableLLVM>false</EnableLLVM>
     <BundleAssemblies>false</BundleAssemblies>
@@ -73,7 +73,9 @@
   <ItemGroup>
     <None Include="GettingStarted.Xamarin" />
     <None Include="Resources\AboutResources.txt" />
-    <None Include="Properties\AndroidManifest.xml" />
+    <None Include="Properties\AndroidManifest.xml">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="Assets\AboutAssets.txt" />
     <AndroidResource Include="Resources\layout\Main.axml">
       <SubType>Designer</SubType>
