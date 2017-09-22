@@ -9,7 +9,7 @@ The Skimmer Scanner is a free, open source app that detects common bluetooth bas
 
 The app *does not* obtain or download data from a given skimmer nor does it report any information to local authorities.
 
-Skimmer Scanner is free, open source, and currently available for Android available [here](https://play.google.com/store/apps/details?id=skimmerscammer.skimmerscammer).
+Skimmer Scanner is free, open source, and currently available for Android available [here](https://play.google.com/store/apps/details?id=skimmerscammer.skimmerscammer). Please help us make it better! We are not mobile app developers and can use all the help we can get. We very much need an iOS version. Thank you!
 
 Written by Nick Poole. Skimmer teardown and research by Nathan Seidle and Rob Reynolds at [SparkFun](http://www.sparkfun.com).
 
