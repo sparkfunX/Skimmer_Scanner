@@ -18,7 +18,7 @@
         android:layout_marginTop="17.3dp"
         android:gravity="center" />
     <TextView
-        android:text="This scan found a device that not only uses a common radio module for skimmers, but replied to queries in a way that suggests that it's running skimmer firmware. Skip this gas pump."
+        android:text="This scan found a device that not only uses a common radio module for skimmers, but replied to queries in a way that suggests that it's running skimmer firmware. Alert the proprietor and tweet us @sparkfun to let us know SkimmerScanner is working."
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

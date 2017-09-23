@@ -84,6 +84,9 @@ namespace SkimmerScanner
 			// aapt resource value: 0x7f050005
 			public const int button2 = 2131034117;
 			
+			// aapt resource value: 0x7f050008
+			public const int button3 = 2131034120;
+			
 			// aapt resource value: 0x7f050003
 			public const int imageView1 = 2131034115;
 			

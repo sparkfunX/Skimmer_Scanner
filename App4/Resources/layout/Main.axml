@@ -38,12 +38,22 @@
         p1:minWidth="25px"
         p1:minHeight="25px"
         p1:layout_width="match_parent"
-        p1:layout_height="match_parent"
-        p1:id="@+id/scrollView1">
+        p1:layout_height="256.3dp"
+        p1:id="@+id/scrollView1"
+        p1:layout_marginBottom="0.0dp"
+        p1:layout_gravity="fill_vertical"
+        p1:layout_weight="1">
         <TextView
             p1:text=""
+            p1:id="@+id/textView2"
             p1:layout_width="match_parent"
-            p1:layout_height="match_parent"
-            p1:id="@+id/textView2" />
+            p1:layout_height="match_parent" />
     </ScrollView>
+    <Button
+        p1:text="Turn off Bluetooth and Close App"
+        p1:layout_width="match_parent"
+        p1:id="@+id/button3"
+        p1:layout_gravity="end"
+        p1:layout_weight="0"
+        p1:layout_height="wrap_content" />
 </LinearLayout>

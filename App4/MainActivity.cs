@@ -21,7 +21,6 @@ namespace SkimmerScanner
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.Main);
 
-
             BluetoothAdapter mBluetoothAdapter = BluetoothAdapter.DefaultAdapter;
             if (mBluetoothAdapter == null)
             {
@@ -67,13 +66,28 @@ namespace SkimmerScanner
                 About(this);
             };
 
+            var closeButton = FindViewById<Button>(Resource.Id.button3);
+            closeButton.Click += (sender, e) =>
+            {
+                mBluetoothAdapter.Disable();
+                this.FinishAffinity();
+            };
+
         }
 
         private void DoDiscovery()
         {
+            // Get the status window test view
+            var status = FindViewById<TextView>(Resource.Id.textView2);
+
+            // Check to see whether the user enabled Bluetooth
+            if (!btAdapter.IsEnabled)
+            {
+                status.Append("\nThe Bluetooth adapter is turned off. Scan cannot proceed.");
+                return;
+            }
 
             // Indicate scanning 
-            var status = FindViewById<TextView>(Resource.Id.textView2);
             status.Append("\nScanning...");
 
             // If we're already discovering, stop it
@@ -85,7 +99,6 @@ namespace SkimmerScanner
             // Request discover from BluetoothAdapter
             btAdapter.StartDiscovery();
         }
-
 
         protected override void OnDestroy()
         {
@@ -99,6 +112,10 @@ namespace SkimmerScanner
 
             // Unregister broadcast listeners
             UnregisterReceiver(receiver);
+
+            // KILL KILL KILL
+            Process.KillProcess(Android.OS.Process.MyPid());
+
         }
 
 
