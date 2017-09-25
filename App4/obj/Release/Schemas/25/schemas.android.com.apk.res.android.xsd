@@ -2,7 +2,7 @@
 <xs:schema xmlns:android="http://schemas.android.com/apk/res/android" attributeFormDefault="qualified" targetNamespace="http://schemas.android.com/apk/res/android" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:annotation>
     <xs:documentation>v25</xs:documentation>
-    <xs:documentation>9/23/2017 1:30:32 PM</xs:documentation>
+    <xs:documentation>9/25/2017 4:40:35 PM</xs:documentation>
   </xs:annotation>
   <xs:attribute name="accessibilityLiveRegion">
     <xs:annotation>
@@ -777,6 +777,7 @@
             <xs:enumeration value="@drawable/skimmercard" />
             <xs:enumeration value="@drawable/skimmerlogo" />
             <xs:enumeration value="@drawable/sparkx" />
+            <xs:enumeration value="@drawable/twitter" />
             <xs:enumeration value="@drawable/warninggreen" />
             <xs:enumeration value="@drawable/warningred" />
             <xs:enumeration value="@drawable/warningyellow" />
@@ -1416,6 +1417,7 @@
             <xs:enumeration value="@drawable/skimmercard" />
             <xs:enumeration value="@drawable/skimmerlogo" />
             <xs:enumeration value="@drawable/sparkx" />
+            <xs:enumeration value="@drawable/twitter" />
             <xs:enumeration value="@drawable/warninggreen" />
             <xs:enumeration value="@drawable/warningred" />
             <xs:enumeration value="@drawable/warningyellow" />
@@ -2094,6 +2096,7 @@
             <xs:enumeration value="@drawable/skimmercard" />
             <xs:enumeration value="@drawable/skimmerlogo" />
             <xs:enumeration value="@drawable/sparkx" />
+            <xs:enumeration value="@drawable/twitter" />
             <xs:enumeration value="@drawable/warninggreen" />
             <xs:enumeration value="@drawable/warningred" />
             <xs:enumeration value="@drawable/warningyellow" />
@@ -2462,6 +2465,7 @@
             <xs:enumeration value="@drawable/skimmercard" />
             <xs:enumeration value="@drawable/skimmerlogo" />
             <xs:enumeration value="@drawable/sparkx" />
+            <xs:enumeration value="@drawable/twitter" />
             <xs:enumeration value="@drawable/warninggreen" />
             <xs:enumeration value="@drawable/warningred" />
             <xs:enumeration value="@drawable/warningyellow" />
@@ -2781,6 +2785,7 @@
             <xs:enumeration value="@drawable/skimmercard" />
             <xs:enumeration value="@drawable/skimmerlogo" />
             <xs:enumeration value="@drawable/sparkx" />
+            <xs:enumeration value="@drawable/twitter" />
             <xs:enumeration value="@drawable/warninggreen" />
             <xs:enumeration value="@drawable/warningred" />
             <xs:enumeration value="@drawable/warningyellow" />
@@ -3410,6 +3415,7 @@
             <xs:enumeration value="@drawable/skimmercard" />
             <xs:enumeration value="@drawable/skimmerlogo" />
             <xs:enumeration value="@drawable/sparkx" />
+            <xs:enumeration value="@drawable/twitter" />
             <xs:enumeration value="@drawable/warninggreen" />
             <xs:enumeration value="@drawable/warningred" />
             <xs:enumeration value="@drawable/warningyellow" />
@@ -3731,6 +3737,7 @@
             <xs:enumeration value="@drawable/skimmercard" />
             <xs:enumeration value="@drawable/skimmerlogo" />
             <xs:enumeration value="@drawable/sparkx" />
+            <xs:enumeration value="@drawable/twitter" />
             <xs:enumeration value="@drawable/warninggreen" />
             <xs:enumeration value="@drawable/warningred" />
             <xs:enumeration value="@drawable/warningyellow" />
@@ -4070,6 +4077,7 @@
             <xs:enumeration value="@drawable/skimmercard" />
             <xs:enumeration value="@drawable/skimmerlogo" />
             <xs:enumeration value="@drawable/sparkx" />
+            <xs:enumeration value="@drawable/twitter" />
             <xs:enumeration value="@drawable/warninggreen" />
             <xs:enumeration value="@drawable/warningred" />
             <xs:enumeration value="@drawable/warningyellow" />
@@ -4351,6 +4359,7 @@
             <xs:enumeration value="@drawable/skimmercard" />
             <xs:enumeration value="@drawable/skimmerlogo" />
             <xs:enumeration value="@drawable/sparkx" />
+            <xs:enumeration value="@drawable/twitter" />
             <xs:enumeration value="@drawable/warninggreen" />
             <xs:enumeration value="@drawable/warningred" />
             <xs:enumeration value="@drawable/warningyellow" />
@@ -4610,6 +4619,7 @@
             <xs:enumeration value="@drawable/skimmercard" />
             <xs:enumeration value="@drawable/skimmerlogo" />
             <xs:enumeration value="@drawable/sparkx" />
+            <xs:enumeration value="@drawable/twitter" />
             <xs:enumeration value="@drawable/warninggreen" />
             <xs:enumeration value="@drawable/warningred" />
             <xs:enumeration value="@drawable/warningyellow" />
@@ -5306,6 +5316,7 @@
             <xs:enumeration value="@drawable/skimmercard" />
             <xs:enumeration value="@drawable/skimmerlogo" />
             <xs:enumeration value="@drawable/sparkx" />
+            <xs:enumeration value="@drawable/twitter" />
             <xs:enumeration value="@drawable/warninggreen" />
             <xs:enumeration value="@drawable/warningred" />
             <xs:enumeration value="@drawable/warningyellow" />
@@ -5729,6 +5740,7 @@
             <xs:enumeration value="@drawable/skimmercard" />
             <xs:enumeration value="@drawable/skimmerlogo" />
             <xs:enumeration value="@drawable/sparkx" />
+            <xs:enumeration value="@drawable/twitter" />
             <xs:enumeration value="@drawable/warninggreen" />
             <xs:enumeration value="@drawable/warningred" />
             <xs:enumeration value="@drawable/warningyellow" />
@@ -6117,6 +6129,7 @@
             <xs:enumeration value="@drawable/skimmercard" />
             <xs:enumeration value="@drawable/skimmerlogo" />
             <xs:enumeration value="@drawable/sparkx" />
+            <xs:enumeration value="@drawable/twitter" />
             <xs:enumeration value="@drawable/warninggreen" />
             <xs:enumeration value="@drawable/warningred" />
             <xs:enumeration value="@drawable/warningyellow" />
@@ -6600,6 +6613,7 @@
             <xs:enumeration value="@drawable/skimmercard" />
             <xs:enumeration value="@drawable/skimmerlogo" />
             <xs:enumeration value="@drawable/sparkx" />
+            <xs:enumeration value="@drawable/twitter" />
             <xs:enumeration value="@drawable/warninggreen" />
             <xs:enumeration value="@drawable/warningred" />
             <xs:enumeration value="@drawable/warningyellow" />
@@ -6919,6 +6933,7 @@
             <xs:enumeration value="@drawable/skimmercard" />
             <xs:enumeration value="@drawable/skimmerlogo" />
             <xs:enumeration value="@drawable/sparkx" />
+            <xs:enumeration value="@drawable/twitter" />
             <xs:enumeration value="@drawable/warninggreen" />
             <xs:enumeration value="@drawable/warningred" />
             <xs:enumeration value="@drawable/warningyellow" />
@@ -7238,6 +7253,7 @@
             <xs:enumeration value="@drawable/skimmercard" />
             <xs:enumeration value="@drawable/skimmerlogo" />
             <xs:enumeration value="@drawable/sparkx" />
+            <xs:enumeration value="@drawable/twitter" />
             <xs:enumeration value="@drawable/warninggreen" />
             <xs:enumeration value="@drawable/warningred" />
             <xs:enumeration value="@drawable/warningyellow" />
@@ -7597,6 +7613,7 @@
             <xs:enumeration value="@drawable/skimmercard" />
             <xs:enumeration value="@drawable/skimmerlogo" />
             <xs:enumeration value="@drawable/sparkx" />
+            <xs:enumeration value="@drawable/twitter" />
             <xs:enumeration value="@drawable/warninggreen" />
             <xs:enumeration value="@drawable/warningred" />
             <xs:enumeration value="@drawable/warningyellow" />
@@ -7916,6 +7933,7 @@
             <xs:enumeration value="@drawable/skimmercard" />
             <xs:enumeration value="@drawable/skimmerlogo" />
             <xs:enumeration value="@drawable/sparkx" />
+            <xs:enumeration value="@drawable/twitter" />
             <xs:enumeration value="@drawable/warninggreen" />
             <xs:enumeration value="@drawable/warningred" />
             <xs:enumeration value="@drawable/warningyellow" />
@@ -8345,6 +8363,7 @@
             <xs:enumeration value="@drawable/skimmercard" />
             <xs:enumeration value="@drawable/skimmerlogo" />
             <xs:enumeration value="@drawable/sparkx" />
+            <xs:enumeration value="@drawable/twitter" />
             <xs:enumeration value="@drawable/warninggreen" />
             <xs:enumeration value="@drawable/warningred" />
             <xs:enumeration value="@drawable/warningyellow" />
@@ -8720,6 +8739,7 @@
             <xs:enumeration value="@drawable/skimmercard" />
             <xs:enumeration value="@drawable/skimmerlogo" />
             <xs:enumeration value="@drawable/sparkx" />
+            <xs:enumeration value="@drawable/twitter" />
             <xs:enumeration value="@drawable/warninggreen" />
             <xs:enumeration value="@drawable/warningred" />
             <xs:enumeration value="@drawable/warningyellow" />
@@ -9003,6 +9023,7 @@
             <xs:enumeration value="@drawable/skimmercard" />
             <xs:enumeration value="@drawable/skimmerlogo" />
             <xs:enumeration value="@drawable/sparkx" />
+            <xs:enumeration value="@drawable/twitter" />
             <xs:enumeration value="@drawable/warninggreen" />
             <xs:enumeration value="@drawable/warningred" />
             <xs:enumeration value="@drawable/warningyellow" />
@@ -9444,6 +9465,7 @@
             <xs:enumeration value="@drawable/skimmercard" />
             <xs:enumeration value="@drawable/skimmerlogo" />
             <xs:enumeration value="@drawable/sparkx" />
+            <xs:enumeration value="@drawable/twitter" />
             <xs:enumeration value="@drawable/warninggreen" />
             <xs:enumeration value="@drawable/warningred" />
             <xs:enumeration value="@drawable/warningyellow" />
@@ -9859,6 +9881,7 @@
             <xs:enumeration value="@drawable/skimmercard" />
             <xs:enumeration value="@drawable/skimmerlogo" />
             <xs:enumeration value="@drawable/sparkx" />
+            <xs:enumeration value="@drawable/twitter" />
             <xs:enumeration value="@drawable/warninggreen" />
             <xs:enumeration value="@drawable/warningred" />
             <xs:enumeration value="@drawable/warningyellow" />
@@ -10392,6 +10415,7 @@
             <xs:enumeration value="@drawable/skimmercard" />
             <xs:enumeration value="@drawable/skimmerlogo" />
             <xs:enumeration value="@drawable/sparkx" />
+            <xs:enumeration value="@drawable/twitter" />
             <xs:enumeration value="@drawable/warninggreen" />
             <xs:enumeration value="@drawable/warningred" />
             <xs:enumeration value="@drawable/warningyellow" />
@@ -10863,6 +10887,7 @@
             <xs:enumeration value="@drawable/skimmercard" />
             <xs:enumeration value="@drawable/skimmerlogo" />
             <xs:enumeration value="@drawable/sparkx" />
+            <xs:enumeration value="@drawable/twitter" />
             <xs:enumeration value="@drawable/warninggreen" />
             <xs:enumeration value="@drawable/warningred" />
             <xs:enumeration value="@drawable/warningyellow" />
@@ -11342,6 +11367,7 @@
             <xs:enumeration value="@drawable/skimmercard" />
             <xs:enumeration value="@drawable/skimmerlogo" />
             <xs:enumeration value="@drawable/sparkx" />
+            <xs:enumeration value="@drawable/twitter" />
             <xs:enumeration value="@drawable/warninggreen" />
             <xs:enumeration value="@drawable/warningred" />
             <xs:enumeration value="@drawable/warningyellow" />
@@ -11956,6 +11982,7 @@
             <xs:enumeration value="@drawable/skimmercard" />
             <xs:enumeration value="@drawable/skimmerlogo" />
             <xs:enumeration value="@drawable/sparkx" />
+            <xs:enumeration value="@drawable/twitter" />
             <xs:enumeration value="@drawable/warninggreen" />
             <xs:enumeration value="@drawable/warningred" />
             <xs:enumeration value="@drawable/warningyellow" />
@@ -12197,6 +12224,7 @@
             <xs:enumeration value="@drawable/skimmercard" />
             <xs:enumeration value="@drawable/skimmerlogo" />
             <xs:enumeration value="@drawable/sparkx" />
+            <xs:enumeration value="@drawable/twitter" />
             <xs:enumeration value="@drawable/warninggreen" />
             <xs:enumeration value="@drawable/warningred" />
             <xs:enumeration value="@drawable/warningyellow" />
@@ -12438,6 +12466,7 @@
             <xs:enumeration value="@drawable/skimmercard" />
             <xs:enumeration value="@drawable/skimmerlogo" />
             <xs:enumeration value="@drawable/sparkx" />
+            <xs:enumeration value="@drawable/twitter" />
             <xs:enumeration value="@drawable/warninggreen" />
             <xs:enumeration value="@drawable/warningred" />
             <xs:enumeration value="@drawable/warningyellow" />
@@ -12679,6 +12708,7 @@
             <xs:enumeration value="@drawable/skimmercard" />
             <xs:enumeration value="@drawable/skimmerlogo" />
             <xs:enumeration value="@drawable/sparkx" />
+            <xs:enumeration value="@drawable/twitter" />
             <xs:enumeration value="@drawable/warninggreen" />
             <xs:enumeration value="@drawable/warningred" />
             <xs:enumeration value="@drawable/warningyellow" />
@@ -12920,6 +12950,7 @@
             <xs:enumeration value="@drawable/skimmercard" />
             <xs:enumeration value="@drawable/skimmerlogo" />
             <xs:enumeration value="@drawable/sparkx" />
+            <xs:enumeration value="@drawable/twitter" />
             <xs:enumeration value="@drawable/warninggreen" />
             <xs:enumeration value="@drawable/warningred" />
             <xs:enumeration value="@drawable/warningyellow" />
@@ -13161,6 +13192,7 @@
             <xs:enumeration value="@drawable/skimmercard" />
             <xs:enumeration value="@drawable/skimmerlogo" />
             <xs:enumeration value="@drawable/sparkx" />
+            <xs:enumeration value="@drawable/twitter" />
             <xs:enumeration value="@drawable/warninggreen" />
             <xs:enumeration value="@drawable/warningred" />
             <xs:enumeration value="@drawable/warningyellow" />
@@ -13402,6 +13434,7 @@
             <xs:enumeration value="@drawable/skimmercard" />
             <xs:enumeration value="@drawable/skimmerlogo" />
             <xs:enumeration value="@drawable/sparkx" />
+            <xs:enumeration value="@drawable/twitter" />
             <xs:enumeration value="@drawable/warninggreen" />
             <xs:enumeration value="@drawable/warningred" />
             <xs:enumeration value="@drawable/warningyellow" />
@@ -13643,6 +13676,7 @@
             <xs:enumeration value="@drawable/skimmercard" />
             <xs:enumeration value="@drawable/skimmerlogo" />
             <xs:enumeration value="@drawable/sparkx" />
+            <xs:enumeration value="@drawable/twitter" />
             <xs:enumeration value="@drawable/warninggreen" />
             <xs:enumeration value="@drawable/warningred" />
             <xs:enumeration value="@drawable/warningyellow" />
@@ -14078,6 +14112,7 @@
             <xs:enumeration value="@drawable/skimmercard" />
             <xs:enumeration value="@drawable/skimmerlogo" />
             <xs:enumeration value="@drawable/sparkx" />
+            <xs:enumeration value="@drawable/twitter" />
             <xs:enumeration value="@drawable/warninggreen" />
             <xs:enumeration value="@drawable/warningred" />
             <xs:enumeration value="@drawable/warningyellow" />
@@ -14346,6 +14381,7 @@
             <xs:enumeration value="@drawable/skimmercard" />
             <xs:enumeration value="@drawable/skimmerlogo" />
             <xs:enumeration value="@drawable/sparkx" />
+            <xs:enumeration value="@drawable/twitter" />
             <xs:enumeration value="@drawable/warninggreen" />
             <xs:enumeration value="@drawable/warningred" />
             <xs:enumeration value="@drawable/warningyellow" />
@@ -14587,6 +14623,7 @@
             <xs:enumeration value="@drawable/skimmercard" />
             <xs:enumeration value="@drawable/skimmerlogo" />
             <xs:enumeration value="@drawable/sparkx" />
+            <xs:enumeration value="@drawable/twitter" />
             <xs:enumeration value="@drawable/warninggreen" />
             <xs:enumeration value="@drawable/warningred" />
             <xs:enumeration value="@drawable/warningyellow" />
@@ -14828,6 +14865,7 @@
             <xs:enumeration value="@drawable/skimmercard" />
             <xs:enumeration value="@drawable/skimmerlogo" />
             <xs:enumeration value="@drawable/sparkx" />
+            <xs:enumeration value="@drawable/twitter" />
             <xs:enumeration value="@drawable/warninggreen" />
             <xs:enumeration value="@drawable/warningred" />
             <xs:enumeration value="@drawable/warningyellow" />
@@ -15069,6 +15107,7 @@
             <xs:enumeration value="@drawable/skimmercard" />
             <xs:enumeration value="@drawable/skimmerlogo" />
             <xs:enumeration value="@drawable/sparkx" />
+            <xs:enumeration value="@drawable/twitter" />
             <xs:enumeration value="@drawable/warninggreen" />
             <xs:enumeration value="@drawable/warningred" />
             <xs:enumeration value="@drawable/warningyellow" />
@@ -15350,6 +15389,7 @@
             <xs:enumeration value="@drawable/skimmercard" />
             <xs:enumeration value="@drawable/skimmerlogo" />
             <xs:enumeration value="@drawable/sparkx" />
+            <xs:enumeration value="@drawable/twitter" />
             <xs:enumeration value="@drawable/warninggreen" />
             <xs:enumeration value="@drawable/warningred" />
             <xs:enumeration value="@drawable/warningyellow" />
@@ -15591,6 +15631,7 @@
             <xs:enumeration value="@drawable/skimmercard" />
             <xs:enumeration value="@drawable/skimmerlogo" />
             <xs:enumeration value="@drawable/sparkx" />
+            <xs:enumeration value="@drawable/twitter" />
             <xs:enumeration value="@drawable/warninggreen" />
             <xs:enumeration value="@drawable/warningred" />
             <xs:enumeration value="@drawable/warningyellow" />
@@ -15910,6 +15951,7 @@
             <xs:enumeration value="@drawable/skimmercard" />
             <xs:enumeration value="@drawable/skimmerlogo" />
             <xs:enumeration value="@drawable/sparkx" />
+            <xs:enumeration value="@drawable/twitter" />
             <xs:enumeration value="@drawable/warninggreen" />
             <xs:enumeration value="@drawable/warningred" />
             <xs:enumeration value="@drawable/warningyellow" />
@@ -16191,6 +16233,7 @@
             <xs:enumeration value="@drawable/skimmercard" />
             <xs:enumeration value="@drawable/skimmerlogo" />
             <xs:enumeration value="@drawable/sparkx" />
+            <xs:enumeration value="@drawable/twitter" />
             <xs:enumeration value="@drawable/warninggreen" />
             <xs:enumeration value="@drawable/warningred" />
             <xs:enumeration value="@drawable/warningyellow" />
@@ -16523,6 +16566,7 @@
             <xs:enumeration value="@drawable/skimmercard" />
             <xs:enumeration value="@drawable/skimmerlogo" />
             <xs:enumeration value="@drawable/sparkx" />
+            <xs:enumeration value="@drawable/twitter" />
             <xs:enumeration value="@drawable/warninggreen" />
             <xs:enumeration value="@drawable/warningred" />
             <xs:enumeration value="@drawable/warningyellow" />
@@ -16764,6 +16808,7 @@
             <xs:enumeration value="@drawable/skimmercard" />
             <xs:enumeration value="@drawable/skimmerlogo" />
             <xs:enumeration value="@drawable/sparkx" />
+            <xs:enumeration value="@drawable/twitter" />
             <xs:enumeration value="@drawable/warninggreen" />
             <xs:enumeration value="@drawable/warningred" />
             <xs:enumeration value="@drawable/warningyellow" />
@@ -17223,6 +17268,7 @@
             <xs:enumeration value="@id/button2" />
             <xs:enumeration value="@id/button3" />
             <xs:enumeration value="@id/imageView1" />
+            <xs:enumeration value="@id/imageView2" />
             <xs:enumeration value="@id/linearLayout1" />
             <xs:enumeration value="@id/scrollView1" />
             <xs:enumeration value="@id/textView1" />
@@ -17310,6 +17356,7 @@
             <xs:enumeration value="@drawable/skimmercard" />
             <xs:enumeration value="@drawable/skimmerlogo" />
             <xs:enumeration value="@drawable/sparkx" />
+            <xs:enumeration value="@drawable/twitter" />
             <xs:enumeration value="@drawable/warninggreen" />
             <xs:enumeration value="@drawable/warningred" />
             <xs:enumeration value="@drawable/warningyellow" />
@@ -17660,6 +17707,7 @@
             <xs:enumeration value="@drawable/skimmercard" />
             <xs:enumeration value="@drawable/skimmerlogo" />
             <xs:enumeration value="@drawable/sparkx" />
+            <xs:enumeration value="@drawable/twitter" />
             <xs:enumeration value="@drawable/warninggreen" />
             <xs:enumeration value="@drawable/warningred" />
             <xs:enumeration value="@drawable/warningyellow" />
@@ -17996,6 +18044,7 @@
             <xs:enumeration value="@drawable/skimmercard" />
             <xs:enumeration value="@drawable/skimmerlogo" />
             <xs:enumeration value="@drawable/sparkx" />
+            <xs:enumeration value="@drawable/twitter" />
             <xs:enumeration value="@drawable/warninggreen" />
             <xs:enumeration value="@drawable/warningred" />
             <xs:enumeration value="@drawable/warningyellow" />
@@ -18565,6 +18614,7 @@
             <xs:enumeration value="@drawable/skimmercard" />
             <xs:enumeration value="@drawable/skimmerlogo" />
             <xs:enumeration value="@drawable/sparkx" />
+            <xs:enumeration value="@drawable/twitter" />
             <xs:enumeration value="@drawable/warninggreen" />
             <xs:enumeration value="@drawable/warningred" />
             <xs:enumeration value="@drawable/warningyellow" />
@@ -18891,6 +18941,7 @@
             <xs:enumeration value="@drawable/skimmercard" />
             <xs:enumeration value="@drawable/skimmerlogo" />
             <xs:enumeration value="@drawable/sparkx" />
+            <xs:enumeration value="@drawable/twitter" />
             <xs:enumeration value="@drawable/warninggreen" />
             <xs:enumeration value="@drawable/warningred" />
             <xs:enumeration value="@drawable/warningyellow" />
@@ -19292,6 +19343,7 @@
             <xs:enumeration value="@drawable/skimmercard" />
             <xs:enumeration value="@drawable/skimmerlogo" />
             <xs:enumeration value="@drawable/sparkx" />
+            <xs:enumeration value="@drawable/twitter" />
             <xs:enumeration value="@drawable/warninggreen" />
             <xs:enumeration value="@drawable/warningred" />
             <xs:enumeration value="@drawable/warningyellow" />
@@ -19653,6 +19705,7 @@
             <xs:enumeration value="@drawable/skimmercard" />
             <xs:enumeration value="@drawable/skimmerlogo" />
             <xs:enumeration value="@drawable/sparkx" />
+            <xs:enumeration value="@drawable/twitter" />
             <xs:enumeration value="@drawable/warninggreen" />
             <xs:enumeration value="@drawable/warningred" />
             <xs:enumeration value="@drawable/warningyellow" />
@@ -19910,6 +19963,7 @@
             <xs:enumeration value="@drawable/skimmercard" />
             <xs:enumeration value="@drawable/skimmerlogo" />
             <xs:enumeration value="@drawable/sparkx" />
+            <xs:enumeration value="@drawable/twitter" />
             <xs:enumeration value="@drawable/warninggreen" />
             <xs:enumeration value="@drawable/warningred" />
             <xs:enumeration value="@drawable/warningyellow" />
@@ -20612,6 +20666,7 @@
             <xs:enumeration value="@drawable/skimmercard" />
             <xs:enumeration value="@drawable/skimmerlogo" />
             <xs:enumeration value="@drawable/sparkx" />
+            <xs:enumeration value="@drawable/twitter" />
             <xs:enumeration value="@drawable/warninggreen" />
             <xs:enumeration value="@drawable/warningred" />
             <xs:enumeration value="@drawable/warningyellow" />
@@ -20975,6 +21030,7 @@
             <xs:enumeration value="@drawable/skimmercard" />
             <xs:enumeration value="@drawable/skimmerlogo" />
             <xs:enumeration value="@drawable/sparkx" />
+            <xs:enumeration value="@drawable/twitter" />
             <xs:enumeration value="@drawable/warninggreen" />
             <xs:enumeration value="@drawable/warningred" />
             <xs:enumeration value="@drawable/warningyellow" />
@@ -21969,6 +22025,7 @@
             <xs:enumeration value="@drawable/skimmercard" />
             <xs:enumeration value="@drawable/skimmerlogo" />
             <xs:enumeration value="@drawable/sparkx" />
+            <xs:enumeration value="@drawable/twitter" />
             <xs:enumeration value="@drawable/warninggreen" />
             <xs:enumeration value="@drawable/warningred" />
             <xs:enumeration value="@drawable/warningyellow" />
@@ -22222,6 +22279,7 @@
             <xs:enumeration value="@drawable/skimmercard" />
             <xs:enumeration value="@drawable/skimmerlogo" />
             <xs:enumeration value="@drawable/sparkx" />
+            <xs:enumeration value="@drawable/twitter" />
             <xs:enumeration value="@drawable/warninggreen" />
             <xs:enumeration value="@drawable/warningred" />
             <xs:enumeration value="@drawable/warningyellow" />
@@ -22503,6 +22561,7 @@
             <xs:enumeration value="@drawable/skimmercard" />
             <xs:enumeration value="@drawable/skimmerlogo" />
             <xs:enumeration value="@drawable/sparkx" />
+            <xs:enumeration value="@drawable/twitter" />
             <xs:enumeration value="@drawable/warninggreen" />
             <xs:enumeration value="@drawable/warningred" />
             <xs:enumeration value="@drawable/warningyellow" />
@@ -22784,6 +22843,7 @@
             <xs:enumeration value="@drawable/skimmercard" />
             <xs:enumeration value="@drawable/skimmerlogo" />
             <xs:enumeration value="@drawable/sparkx" />
+            <xs:enumeration value="@drawable/twitter" />
             <xs:enumeration value="@drawable/warninggreen" />
             <xs:enumeration value="@drawable/warningred" />
             <xs:enumeration value="@drawable/warningyellow" />
@@ -23025,6 +23085,7 @@
             <xs:enumeration value="@drawable/skimmercard" />
             <xs:enumeration value="@drawable/skimmerlogo" />
             <xs:enumeration value="@drawable/sparkx" />
+            <xs:enumeration value="@drawable/twitter" />
             <xs:enumeration value="@drawable/warninggreen" />
             <xs:enumeration value="@drawable/warningred" />
             <xs:enumeration value="@drawable/warningyellow" />
@@ -23266,6 +23327,7 @@
             <xs:enumeration value="@drawable/skimmercard" />
             <xs:enumeration value="@drawable/skimmerlogo" />
             <xs:enumeration value="@drawable/sparkx" />
+            <xs:enumeration value="@drawable/twitter" />
             <xs:enumeration value="@drawable/warninggreen" />
             <xs:enumeration value="@drawable/warningred" />
             <xs:enumeration value="@drawable/warningyellow" />
@@ -23507,6 +23569,7 @@
             <xs:enumeration value="@drawable/skimmercard" />
             <xs:enumeration value="@drawable/skimmerlogo" />
             <xs:enumeration value="@drawable/sparkx" />
+            <xs:enumeration value="@drawable/twitter" />
             <xs:enumeration value="@drawable/warninggreen" />
             <xs:enumeration value="@drawable/warningred" />
             <xs:enumeration value="@drawable/warningyellow" />
@@ -23748,6 +23811,7 @@
             <xs:enumeration value="@drawable/skimmercard" />
             <xs:enumeration value="@drawable/skimmerlogo" />
             <xs:enumeration value="@drawable/sparkx" />
+            <xs:enumeration value="@drawable/twitter" />
             <xs:enumeration value="@drawable/warninggreen" />
             <xs:enumeration value="@drawable/warningred" />
             <xs:enumeration value="@drawable/warningyellow" />
@@ -24461,6 +24525,7 @@
             <xs:enumeration value="@drawable/skimmercard" />
             <xs:enumeration value="@drawable/skimmerlogo" />
             <xs:enumeration value="@drawable/sparkx" />
+            <xs:enumeration value="@drawable/twitter" />
             <xs:enumeration value="@drawable/warninggreen" />
             <xs:enumeration value="@drawable/warningred" />
             <xs:enumeration value="@drawable/warningyellow" />
@@ -24719,6 +24784,7 @@
             <xs:enumeration value="@drawable/skimmercard" />
             <xs:enumeration value="@drawable/skimmerlogo" />
             <xs:enumeration value="@drawable/sparkx" />
+            <xs:enumeration value="@drawable/twitter" />
             <xs:enumeration value="@drawable/warninggreen" />
             <xs:enumeration value="@drawable/warningred" />
             <xs:enumeration value="@drawable/warningyellow" />
@@ -25038,6 +25104,7 @@
             <xs:enumeration value="@drawable/skimmercard" />
             <xs:enumeration value="@drawable/skimmerlogo" />
             <xs:enumeration value="@drawable/sparkx" />
+            <xs:enumeration value="@drawable/twitter" />
             <xs:enumeration value="@drawable/warninggreen" />
             <xs:enumeration value="@drawable/warningred" />
             <xs:enumeration value="@drawable/warningyellow" />
@@ -25785,6 +25852,7 @@
             <xs:enumeration value="@drawable/skimmercard" />
             <xs:enumeration value="@drawable/skimmerlogo" />
             <xs:enumeration value="@drawable/sparkx" />
+            <xs:enumeration value="@drawable/twitter" />
             <xs:enumeration value="@drawable/warninggreen" />
             <xs:enumeration value="@drawable/warningred" />
             <xs:enumeration value="@drawable/warningyellow" />
@@ -26144,6 +26212,7 @@
             <xs:enumeration value="@drawable/skimmercard" />
             <xs:enumeration value="@drawable/skimmerlogo" />
             <xs:enumeration value="@drawable/sparkx" />
+            <xs:enumeration value="@drawable/twitter" />
             <xs:enumeration value="@drawable/warninggreen" />
             <xs:enumeration value="@drawable/warningred" />
             <xs:enumeration value="@drawable/warningyellow" />
@@ -26565,6 +26634,7 @@
             <xs:enumeration value="@drawable/skimmercard" />
             <xs:enumeration value="@drawable/skimmerlogo" />
             <xs:enumeration value="@drawable/sparkx" />
+            <xs:enumeration value="@drawable/twitter" />
             <xs:enumeration value="@drawable/warninggreen" />
             <xs:enumeration value="@drawable/warningred" />
             <xs:enumeration value="@drawable/warningyellow" />
@@ -26916,6 +26986,7 @@
             <xs:enumeration value="@drawable/skimmercard" />
             <xs:enumeration value="@drawable/skimmerlogo" />
             <xs:enumeration value="@drawable/sparkx" />
+            <xs:enumeration value="@drawable/twitter" />
             <xs:enumeration value="@drawable/warninggreen" />
             <xs:enumeration value="@drawable/warningred" />
             <xs:enumeration value="@drawable/warningyellow" />
@@ -27157,6 +27228,7 @@
             <xs:enumeration value="@drawable/skimmercard" />
             <xs:enumeration value="@drawable/skimmerlogo" />
             <xs:enumeration value="@drawable/sparkx" />
+            <xs:enumeration value="@drawable/twitter" />
             <xs:enumeration value="@drawable/warninggreen" />
             <xs:enumeration value="@drawable/warningred" />
             <xs:enumeration value="@drawable/warningyellow" />
@@ -27941,6 +28013,7 @@
             <xs:enumeration value="@drawable/skimmercard" />
             <xs:enumeration value="@drawable/skimmerlogo" />
             <xs:enumeration value="@drawable/sparkx" />
+            <xs:enumeration value="@drawable/twitter" />
             <xs:enumeration value="@drawable/warninggreen" />
             <xs:enumeration value="@drawable/warningred" />
             <xs:enumeration value="@drawable/warningyellow" />
@@ -28182,6 +28255,7 @@
             <xs:enumeration value="@drawable/skimmercard" />
             <xs:enumeration value="@drawable/skimmerlogo" />
             <xs:enumeration value="@drawable/sparkx" />
+            <xs:enumeration value="@drawable/twitter" />
             <xs:enumeration value="@drawable/warninggreen" />
             <xs:enumeration value="@drawable/warningred" />
             <xs:enumeration value="@drawable/warningyellow" />
@@ -28423,6 +28497,7 @@
             <xs:enumeration value="@drawable/skimmercard" />
             <xs:enumeration value="@drawable/skimmerlogo" />
             <xs:enumeration value="@drawable/sparkx" />
+            <xs:enumeration value="@drawable/twitter" />
             <xs:enumeration value="@drawable/warninggreen" />
             <xs:enumeration value="@drawable/warningred" />
             <xs:enumeration value="@drawable/warningyellow" />
@@ -28664,6 +28739,7 @@
             <xs:enumeration value="@drawable/skimmercard" />
             <xs:enumeration value="@drawable/skimmerlogo" />
             <xs:enumeration value="@drawable/sparkx" />
+            <xs:enumeration value="@drawable/twitter" />
             <xs:enumeration value="@drawable/warninggreen" />
             <xs:enumeration value="@drawable/warningred" />
             <xs:enumeration value="@drawable/warningyellow" />
@@ -29085,6 +29161,7 @@
             <xs:enumeration value="@drawable/skimmercard" />
             <xs:enumeration value="@drawable/skimmerlogo" />
             <xs:enumeration value="@drawable/sparkx" />
+            <xs:enumeration value="@drawable/twitter" />
             <xs:enumeration value="@drawable/warninggreen" />
             <xs:enumeration value="@drawable/warningred" />
             <xs:enumeration value="@drawable/warningyellow" />
@@ -29326,6 +29403,7 @@
             <xs:enumeration value="@drawable/skimmercard" />
             <xs:enumeration value="@drawable/skimmerlogo" />
             <xs:enumeration value="@drawable/sparkx" />
+            <xs:enumeration value="@drawable/twitter" />
             <xs:enumeration value="@drawable/warninggreen" />
             <xs:enumeration value="@drawable/warningred" />
             <xs:enumeration value="@drawable/warningyellow" />
@@ -29735,6 +29813,7 @@
             <xs:enumeration value="@drawable/skimmercard" />
             <xs:enumeration value="@drawable/skimmerlogo" />
             <xs:enumeration value="@drawable/sparkx" />
+            <xs:enumeration value="@drawable/twitter" />
             <xs:enumeration value="@drawable/warninggreen" />
             <xs:enumeration value="@drawable/warningred" />
             <xs:enumeration value="@drawable/warningyellow" />
@@ -29976,6 +30055,7 @@
             <xs:enumeration value="@drawable/skimmercard" />
             <xs:enumeration value="@drawable/skimmerlogo" />
             <xs:enumeration value="@drawable/sparkx" />
+            <xs:enumeration value="@drawable/twitter" />
             <xs:enumeration value="@drawable/warninggreen" />
             <xs:enumeration value="@drawable/warningred" />
             <xs:enumeration value="@drawable/warningyellow" />
@@ -30295,6 +30375,7 @@
             <xs:enumeration value="@drawable/skimmercard" />
             <xs:enumeration value="@drawable/skimmerlogo" />
             <xs:enumeration value="@drawable/sparkx" />
+            <xs:enumeration value="@drawable/twitter" />
             <xs:enumeration value="@drawable/warninggreen" />
             <xs:enumeration value="@drawable/warningred" />
             <xs:enumeration value="@drawable/warningyellow" />
@@ -30978,6 +31059,7 @@
             <xs:enumeration value="@drawable/skimmercard" />
             <xs:enumeration value="@drawable/skimmerlogo" />
             <xs:enumeration value="@drawable/sparkx" />
+            <xs:enumeration value="@drawable/twitter" />
             <xs:enumeration value="@drawable/warninggreen" />
             <xs:enumeration value="@drawable/warningred" />
             <xs:enumeration value="@drawable/warningyellow" />
@@ -31512,6 +31594,7 @@
             <xs:enumeration value="@drawable/skimmercard" />
             <xs:enumeration value="@drawable/skimmerlogo" />
             <xs:enumeration value="@drawable/sparkx" />
+            <xs:enumeration value="@drawable/twitter" />
             <xs:enumeration value="@drawable/warninggreen" />
             <xs:enumeration value="@drawable/warningred" />
             <xs:enumeration value="@drawable/warningyellow" />
@@ -31889,6 +31972,7 @@
             <xs:enumeration value="@drawable/skimmercard" />
             <xs:enumeration value="@drawable/skimmerlogo" />
             <xs:enumeration value="@drawable/sparkx" />
+            <xs:enumeration value="@drawable/twitter" />
             <xs:enumeration value="@drawable/warninggreen" />
             <xs:enumeration value="@drawable/warningred" />
             <xs:enumeration value="@drawable/warningyellow" />
@@ -33084,6 +33168,7 @@
             <xs:enumeration value="@drawable/skimmercard" />
             <xs:enumeration value="@drawable/skimmerlogo" />
             <xs:enumeration value="@drawable/sparkx" />
+            <xs:enumeration value="@drawable/twitter" />
             <xs:enumeration value="@drawable/warninggreen" />
             <xs:enumeration value="@drawable/warningred" />
             <xs:enumeration value="@drawable/warningyellow" />
@@ -33365,6 +33450,7 @@
             <xs:enumeration value="@drawable/skimmercard" />
             <xs:enumeration value="@drawable/skimmerlogo" />
             <xs:enumeration value="@drawable/sparkx" />
+            <xs:enumeration value="@drawable/twitter" />
             <xs:enumeration value="@drawable/warninggreen" />
             <xs:enumeration value="@drawable/warningred" />
             <xs:enumeration value="@drawable/warningyellow" />
@@ -33697,6 +33783,7 @@
             <xs:enumeration value="@drawable/skimmercard" />
             <xs:enumeration value="@drawable/skimmerlogo" />
             <xs:enumeration value="@drawable/sparkx" />
+            <xs:enumeration value="@drawable/twitter" />
             <xs:enumeration value="@drawable/warninggreen" />
             <xs:enumeration value="@drawable/warningred" />
             <xs:enumeration value="@drawable/warningyellow" />
@@ -34018,6 +34105,7 @@
             <xs:enumeration value="@drawable/skimmercard" />
             <xs:enumeration value="@drawable/skimmerlogo" />
             <xs:enumeration value="@drawable/sparkx" />
+            <xs:enumeration value="@drawable/twitter" />
             <xs:enumeration value="@drawable/warninggreen" />
             <xs:enumeration value="@drawable/warningred" />
             <xs:enumeration value="@drawable/warningyellow" />
@@ -34259,6 +34347,7 @@
             <xs:enumeration value="@drawable/skimmercard" />
             <xs:enumeration value="@drawable/skimmerlogo" />
             <xs:enumeration value="@drawable/sparkx" />
+            <xs:enumeration value="@drawable/twitter" />
             <xs:enumeration value="@drawable/warninggreen" />
             <xs:enumeration value="@drawable/warningred" />
             <xs:enumeration value="@drawable/warningyellow" />
@@ -34540,6 +34629,7 @@
             <xs:enumeration value="@drawable/skimmercard" />
             <xs:enumeration value="@drawable/skimmerlogo" />
             <xs:enumeration value="@drawable/sparkx" />
+            <xs:enumeration value="@drawable/twitter" />
             <xs:enumeration value="@drawable/warninggreen" />
             <xs:enumeration value="@drawable/warningred" />
             <xs:enumeration value="@drawable/warningyellow" />
@@ -34781,6 +34871,7 @@
             <xs:enumeration value="@drawable/skimmercard" />
             <xs:enumeration value="@drawable/skimmerlogo" />
             <xs:enumeration value="@drawable/sparkx" />
+            <xs:enumeration value="@drawable/twitter" />
             <xs:enumeration value="@drawable/warninggreen" />
             <xs:enumeration value="@drawable/warningred" />
             <xs:enumeration value="@drawable/warningyellow" />
@@ -35167,6 +35258,7 @@
             <xs:enumeration value="@drawable/skimmercard" />
             <xs:enumeration value="@drawable/skimmerlogo" />
             <xs:enumeration value="@drawable/sparkx" />
+            <xs:enumeration value="@drawable/twitter" />
             <xs:enumeration value="@drawable/warninggreen" />
             <xs:enumeration value="@drawable/warningred" />
             <xs:enumeration value="@drawable/warningyellow" />
@@ -35408,6 +35500,7 @@
             <xs:enumeration value="@drawable/skimmercard" />
             <xs:enumeration value="@drawable/skimmerlogo" />
             <xs:enumeration value="@drawable/sparkx" />
+            <xs:enumeration value="@drawable/twitter" />
             <xs:enumeration value="@drawable/warninggreen" />
             <xs:enumeration value="@drawable/warningred" />
             <xs:enumeration value="@drawable/warningyellow" />
@@ -35727,6 +35820,7 @@
             <xs:enumeration value="@drawable/skimmercard" />
             <xs:enumeration value="@drawable/skimmerlogo" />
             <xs:enumeration value="@drawable/sparkx" />
+            <xs:enumeration value="@drawable/twitter" />
             <xs:enumeration value="@drawable/warninggreen" />
             <xs:enumeration value="@drawable/warningred" />
             <xs:enumeration value="@drawable/warningyellow" />
@@ -36046,6 +36140,7 @@
             <xs:enumeration value="@drawable/skimmercard" />
             <xs:enumeration value="@drawable/skimmerlogo" />
             <xs:enumeration value="@drawable/sparkx" />
+            <xs:enumeration value="@drawable/twitter" />
             <xs:enumeration value="@drawable/warninggreen" />
             <xs:enumeration value="@drawable/warningred" />
             <xs:enumeration value="@drawable/warningyellow" />
@@ -36365,6 +36460,7 @@
             <xs:enumeration value="@drawable/skimmercard" />
             <xs:enumeration value="@drawable/skimmerlogo" />
             <xs:enumeration value="@drawable/sparkx" />
+            <xs:enumeration value="@drawable/twitter" />
             <xs:enumeration value="@drawable/warninggreen" />
             <xs:enumeration value="@drawable/warningred" />
             <xs:enumeration value="@drawable/warningyellow" />
@@ -36684,6 +36780,7 @@
             <xs:enumeration value="@drawable/skimmercard" />
             <xs:enumeration value="@drawable/skimmerlogo" />
             <xs:enumeration value="@drawable/sparkx" />
+            <xs:enumeration value="@drawable/twitter" />
             <xs:enumeration value="@drawable/warninggreen" />
             <xs:enumeration value="@drawable/warningred" />
             <xs:enumeration value="@drawable/warningyellow" />
@@ -36951,6 +37048,7 @@
             <xs:enumeration value="@drawable/skimmercard" />
             <xs:enumeration value="@drawable/skimmerlogo" />
             <xs:enumeration value="@drawable/sparkx" />
+            <xs:enumeration value="@drawable/twitter" />
             <xs:enumeration value="@drawable/warninggreen" />
             <xs:enumeration value="@drawable/warningred" />
             <xs:enumeration value="@drawable/warningyellow" />
@@ -37192,6 +37290,7 @@
             <xs:enumeration value="@drawable/skimmercard" />
             <xs:enumeration value="@drawable/skimmerlogo" />
             <xs:enumeration value="@drawable/sparkx" />
+            <xs:enumeration value="@drawable/twitter" />
             <xs:enumeration value="@drawable/warninggreen" />
             <xs:enumeration value="@drawable/warningred" />
             <xs:enumeration value="@drawable/warningyellow" />
@@ -37433,6 +37532,7 @@
             <xs:enumeration value="@drawable/skimmercard" />
             <xs:enumeration value="@drawable/skimmerlogo" />
             <xs:enumeration value="@drawable/sparkx" />
+            <xs:enumeration value="@drawable/twitter" />
             <xs:enumeration value="@drawable/warninggreen" />
             <xs:enumeration value="@drawable/warningred" />
             <xs:enumeration value="@drawable/warningyellow" />
@@ -37674,6 +37774,7 @@
             <xs:enumeration value="@drawable/skimmercard" />
             <xs:enumeration value="@drawable/skimmerlogo" />
             <xs:enumeration value="@drawable/sparkx" />
+            <xs:enumeration value="@drawable/twitter" />
             <xs:enumeration value="@drawable/warninggreen" />
             <xs:enumeration value="@drawable/warningred" />
             <xs:enumeration value="@drawable/warningyellow" />
@@ -37915,6 +38016,7 @@
             <xs:enumeration value="@drawable/skimmercard" />
             <xs:enumeration value="@drawable/skimmerlogo" />
             <xs:enumeration value="@drawable/sparkx" />
+            <xs:enumeration value="@drawable/twitter" />
             <xs:enumeration value="@drawable/warninggreen" />
             <xs:enumeration value="@drawable/warningred" />
             <xs:enumeration value="@drawable/warningyellow" />
@@ -38156,6 +38258,7 @@
             <xs:enumeration value="@drawable/skimmercard" />
             <xs:enumeration value="@drawable/skimmerlogo" />
             <xs:enumeration value="@drawable/sparkx" />
+            <xs:enumeration value="@drawable/twitter" />
             <xs:enumeration value="@drawable/warninggreen" />
             <xs:enumeration value="@drawable/warningred" />
             <xs:enumeration value="@drawable/warningyellow" />
@@ -38397,6 +38500,7 @@
             <xs:enumeration value="@drawable/skimmercard" />
             <xs:enumeration value="@drawable/skimmerlogo" />
             <xs:enumeration value="@drawable/sparkx" />
+            <xs:enumeration value="@drawable/twitter" />
             <xs:enumeration value="@drawable/warninggreen" />
             <xs:enumeration value="@drawable/warningred" />
             <xs:enumeration value="@drawable/warningyellow" />
@@ -38810,6 +38914,7 @@
             <xs:enumeration value="@drawable/skimmercard" />
             <xs:enumeration value="@drawable/skimmerlogo" />
             <xs:enumeration value="@drawable/sparkx" />
+            <xs:enumeration value="@drawable/twitter" />
             <xs:enumeration value="@drawable/warninggreen" />
             <xs:enumeration value="@drawable/warningred" />
             <xs:enumeration value="@drawable/warningyellow" />
@@ -39051,6 +39156,7 @@
             <xs:enumeration value="@drawable/skimmercard" />
             <xs:enumeration value="@drawable/skimmerlogo" />
             <xs:enumeration value="@drawable/sparkx" />
+            <xs:enumeration value="@drawable/twitter" />
             <xs:enumeration value="@drawable/warninggreen" />
             <xs:enumeration value="@drawable/warningred" />
             <xs:enumeration value="@drawable/warningyellow" />
@@ -39292,6 +39398,7 @@
             <xs:enumeration value="@drawable/skimmercard" />
             <xs:enumeration value="@drawable/skimmerlogo" />
             <xs:enumeration value="@drawable/sparkx" />
+            <xs:enumeration value="@drawable/twitter" />
             <xs:enumeration value="@drawable/warninggreen" />
             <xs:enumeration value="@drawable/warningred" />
             <xs:enumeration value="@drawable/warningyellow" />
@@ -40474,6 +40581,7 @@
             <xs:enumeration value="@drawable/skimmercard" />
             <xs:enumeration value="@drawable/skimmerlogo" />
             <xs:enumeration value="@drawable/sparkx" />
+            <xs:enumeration value="@drawable/twitter" />
             <xs:enumeration value="@drawable/warninggreen" />
             <xs:enumeration value="@drawable/warningred" />
             <xs:enumeration value="@drawable/warningyellow" />
@@ -40898,6 +41006,7 @@
             <xs:enumeration value="@drawable/skimmercard" />
             <xs:enumeration value="@drawable/skimmerlogo" />
             <xs:enumeration value="@drawable/sparkx" />
+            <xs:enumeration value="@drawable/twitter" />
             <xs:enumeration value="@drawable/warninggreen" />
             <xs:enumeration value="@drawable/warningred" />
             <xs:enumeration value="@drawable/warningyellow" />
@@ -41647,6 +41756,7 @@
             <xs:enumeration value="@drawable/skimmercard" />
             <xs:enumeration value="@drawable/skimmerlogo" />
             <xs:enumeration value="@drawable/sparkx" />
+            <xs:enumeration value="@drawable/twitter" />
             <xs:enumeration value="@drawable/warninggreen" />
             <xs:enumeration value="@drawable/warningred" />
             <xs:enumeration value="@drawable/warningyellow" />
@@ -42059,6 +42169,7 @@
             <xs:enumeration value="@drawable/skimmercard" />
             <xs:enumeration value="@drawable/skimmerlogo" />
             <xs:enumeration value="@drawable/sparkx" />
+            <xs:enumeration value="@drawable/twitter" />
             <xs:enumeration value="@drawable/warninggreen" />
             <xs:enumeration value="@drawable/warningred" />
             <xs:enumeration value="@drawable/warningyellow" />
@@ -42814,6 +42925,7 @@
             <xs:enumeration value="@drawable/skimmercard" />
             <xs:enumeration value="@drawable/skimmerlogo" />
             <xs:enumeration value="@drawable/sparkx" />
+            <xs:enumeration value="@drawable/twitter" />
             <xs:enumeration value="@drawable/warninggreen" />
             <xs:enumeration value="@drawable/warningred" />
             <xs:enumeration value="@drawable/warningyellow" />
@@ -43281,6 +43393,7 @@
             <xs:enumeration value="@drawable/skimmercard" />
             <xs:enumeration value="@drawable/skimmerlogo" />
             <xs:enumeration value="@drawable/sparkx" />
+            <xs:enumeration value="@drawable/twitter" />
             <xs:enumeration value="@drawable/warninggreen" />
             <xs:enumeration value="@drawable/warningred" />
             <xs:enumeration value="@drawable/warningyellow" />
@@ -43538,6 +43651,7 @@
             <xs:enumeration value="@drawable/skimmercard" />
             <xs:enumeration value="@drawable/skimmerlogo" />
             <xs:enumeration value="@drawable/sparkx" />
+            <xs:enumeration value="@drawable/twitter" />
             <xs:enumeration value="@drawable/warninggreen" />
             <xs:enumeration value="@drawable/warningred" />
             <xs:enumeration value="@drawable/warningyellow" />
@@ -43779,6 +43893,7 @@
             <xs:enumeration value="@drawable/skimmercard" />
             <xs:enumeration value="@drawable/skimmerlogo" />
             <xs:enumeration value="@drawable/sparkx" />
+            <xs:enumeration value="@drawable/twitter" />
             <xs:enumeration value="@drawable/warninggreen" />
             <xs:enumeration value="@drawable/warningred" />
             <xs:enumeration value="@drawable/warningyellow" />
@@ -44020,6 +44135,7 @@
             <xs:enumeration value="@drawable/skimmercard" />
             <xs:enumeration value="@drawable/skimmerlogo" />
             <xs:enumeration value="@drawable/sparkx" />
+            <xs:enumeration value="@drawable/twitter" />
             <xs:enumeration value="@drawable/warninggreen" />
             <xs:enumeration value="@drawable/warningred" />
             <xs:enumeration value="@drawable/warningyellow" />
@@ -44339,6 +44455,7 @@
             <xs:enumeration value="@drawable/skimmercard" />
             <xs:enumeration value="@drawable/skimmerlogo" />
             <xs:enumeration value="@drawable/sparkx" />
+            <xs:enumeration value="@drawable/twitter" />
             <xs:enumeration value="@drawable/warninggreen" />
             <xs:enumeration value="@drawable/warningred" />
             <xs:enumeration value="@drawable/warningyellow" />
@@ -44710,6 +44827,7 @@
             <xs:enumeration value="@drawable/skimmercard" />
             <xs:enumeration value="@drawable/skimmerlogo" />
             <xs:enumeration value="@drawable/sparkx" />
+            <xs:enumeration value="@drawable/twitter" />
             <xs:enumeration value="@drawable/warninggreen" />
             <xs:enumeration value="@drawable/warningred" />
             <xs:enumeration value="@drawable/warningyellow" />
@@ -44951,6 +45069,7 @@
             <xs:enumeration value="@drawable/skimmercard" />
             <xs:enumeration value="@drawable/skimmerlogo" />
             <xs:enumeration value="@drawable/sparkx" />
+            <xs:enumeration value="@drawable/twitter" />
             <xs:enumeration value="@drawable/warninggreen" />
             <xs:enumeration value="@drawable/warningred" />
             <xs:enumeration value="@drawable/warningyellow" />

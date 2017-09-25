@@ -57,13 +57,16 @@ namespace SkimmerScanner
 			public const int SparkX = 2130837507;
 			
 			// aapt resource value: 0x7f020004
-			public const int warninggreen = 2130837508;
+			public const int Twitter = 2130837508;
 			
 			// aapt resource value: 0x7f020005
-			public const int warningred = 2130837509;
+			public const int warninggreen = 2130837509;
 			
 			// aapt resource value: 0x7f020006
-			public const int warningyellow = 2130837510;
+			public const int warningred = 2130837510;
+			
+			// aapt resource value: 0x7f020007
+			public const int warningyellow = 2130837511;
 			
 			static Drawable()
 			{
@@ -89,6 +92,9 @@ namespace SkimmerScanner
 			
 			// aapt resource value: 0x7f050003
 			public const int imageView1 = 2131034115;
+			
+			// aapt resource value: 0x7f050009
+			public const int imageView2 = 2131034121;
 			
 			// aapt resource value: 0x7f050004
 			public const int linearLayout1 = 2131034116;

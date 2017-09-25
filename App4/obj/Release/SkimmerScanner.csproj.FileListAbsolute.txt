@@ -24,3 +24,4 @@ C:\Users\Nick\source\repos\App4\App4\obj\Release\R.cs.flag
 C:\Users\Nick\source\repos\App4\App4\obj\Release\uploadflags.txt
 C:\Users\Nick\source\repos\App4\App4\bin\Release\App4.dll.mdb
 C:\Users\Nick\source\repos\App4\App4\obj\Release\android\assets\App4.dll.mdb
+C:\Users\Nick\source\repos\App4\App4\obj\Release\res\drawable\twitter.png
