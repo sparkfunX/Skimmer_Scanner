@@ -15,14 +15,17 @@ public final class R {
         public static final int skimmercard=0x7f020001;
         public static final int skimmerlogo=0x7f020002;
         public static final int sparkx=0x7f020003;
-        public static final int warninggreen=0x7f020004;
-        public static final int warningred=0x7f020005;
-        public static final int warningyellow=0x7f020006;
+        public static final int twitter=0x7f020004;
+        public static final int warninggreen=0x7f020005;
+        public static final int warningred=0x7f020006;
+        public static final int warningyellow=0x7f020007;
     }
     public static final class id {
         public static final int button1=0x7f050006;
         public static final int button2=0x7f050005;
+        public static final int button3=0x7f050008;
         public static final int imageView1=0x7f050003;
+        public static final int imageView2=0x7f050009;
         public static final int linearLayout1=0x7f050004;
         public static final int scrollView1=0x7f050007;
         public static final int textView1=0x7f050000;
